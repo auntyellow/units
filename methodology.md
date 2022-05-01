@@ -34,11 +34,12 @@ Then we have:
 
 Here we use Eq. 3 and the conversions <img src="https://latex.codecogs.com/gif.latex?1\;\text{dyn}=10^{-5}\text{N}"> and <img src="https://latex.codecogs.com/gif.latex?1\;\text{cm}=10^{-2}\text{m}">. <sup>[1]</sup>
 
-We represent Eq. 5 as: <sup>[2]</sup>
+We represent Eq. 5 as: <sup>[2,3]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?1\;\text{C}\overset{\frown}=2997924580.82(22)\;\text{statC}">
 
 ### Notes
 
 1. [Here](uncertainties/coulomb.py) is the calculation;
-2. Before 2019, <img src="https://latex.codecogs.com/gif.latex?1\;\text{C}\overset{\frown}=2997924580\;\text{statC}"> exactly.
+2. This is for electric charge only. For electric flux, Eq. 4 does not work; 
+3. Before 2019, <img src="https://latex.codecogs.com/gif.latex?1\;\text{C}\overset{\frown}=2997924580\;\text{statC}"> exactly.
