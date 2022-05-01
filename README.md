@@ -12,6 +12,6 @@ Here are some new notes:
 
 Appendix
 
-1. [ ] SI and CGS mechanical units
-2. [ ] Energy Conversions
-3. [ ] Physical Constants (CODATA 2018)
+- [ ] 1. SI and CGS mechanical units
+- [ ] 2. Energy Conversions
+- [ ] 3. Physical Constants (CODATA 2018)
