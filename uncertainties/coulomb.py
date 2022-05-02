@@ -7,3 +7,4 @@ cm = 1e-02
 statC = sqrt(dyn)*cm
 x = 1/(4*pi*e0)**.5/statC
 print('1 C =', x, 'statC')
+print('1 statC =', 1/x, 'C')

@@ -40,6 +40,6 @@ We represent Eq. 5 as: <sup>[2,3]</sup>
 
 ### Notes
 
-1. [Here](uncertainties/coulomb.py) is the calculation;
-2. This is for electric charge only. For electric flux, Eq. 4 does not work; 
+1. [Here](uncertainties/coulomb.py) is the calculation.
+2. This is for electric charge only. For electric flux, Eq. 4 does not work. 
 3. Before 2019, <img src="https://latex.codecogs.com/gif.latex?1\;\text{C}\overset{\frown}=2997924580\;\text{statC}"> exactly.
