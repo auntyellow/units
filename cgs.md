@@ -44,7 +44,7 @@ The [Magnetic B Field](https://en.wikipedia.org/wiki/Magnetic_field#The_B-field)
 
 So the unit of magnetic B field in EMU is:
 
-<img src="https://latex.codecogs.com/gif.latex?1\;\text{G}=1\;\text{dyn/abA\;cm}=1\;\text{dyn}^{1/2}\text{cm}^{-1}\quad\text{(Eq.\,4)}">
+<img src="https://latex.codecogs.com/gif.latex?1\;\text{G}=\frac{1\;\text{dyn}}{\text{abA\;s\;cm/s}}=1\;\text{dyn}^{1/2}\text{cm}^{-1}\quad\text{(Eq.\,4)}">
 
 ### Gaussian Units
 
