@@ -80,6 +80,6 @@ So we have: <sup>[4,5]</sup>
 
 1. This holds in all unit systems.
 2. [Here](uncertainties/ampere.py) is the calculation.
-3. This also holds in ESU and SI units, but does not hold in Gaussian units.
+3. This also holds in ESU and SI units (Eq. 5), but does not hold in Gaussian units (Eq. 6).
 4. [Here](uncertainties/gauss.py) is the calculation.
 5. Before 2019, <img src="https://latex.codecogs.com/gif.latex?1\;\text{G}\overset{\frown}=1{\times}10^{-4}\;\text{T}"> exactly.
