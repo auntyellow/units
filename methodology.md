@@ -14,7 +14,7 @@ The unit of electrical charge here is:
 
 <img src="https://latex.codecogs.com/gif.latex?1\;\text{statC}=1\;\text{dyn}^{1/2}\text{cm}\quad\text{(Eq.\,3)}">
 
-To establish the relationship between Eq.1 and Eq.2, we should rewrite them as:
+To establish the relationship between Eq. 1 and Eq. 2, we should rewrite them as:
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}F=\dfrac{q^\text{SI}_1q^\text{SI}_2}{4\pi\varepsilon_0r^2}&\text{(Eq.\,1')}\\[1em]F=\dfrac{q^\text{G}_1q^\text{G}_2}{r^2}&\text{(Eq.\,2')}\end{cases}">
 
