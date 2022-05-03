@@ -9,3 +9,7 @@ c = 299792458
 x = g/(4*pi*e0)**.5/c
 print('1 G =', x, 'T')
 print('1 T =', 1/x, 'G')
+erg = 1e-07
+y = erg/x
+print('1 erg/G =', y, 'J/T')
+print('1 J/T =', 1/y, 'erg/G')

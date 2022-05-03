@@ -8,8 +8,8 @@ I wrote a [note](units_2004.pdf) to Units, Physical Constants and Uncertainties 
 
 Here are some new notes:
 
-- [x] [Methodology](methodology.md) of unit conversion
-- [ ] [CGS Units](cgs.md): ESU, EMU and Gaussian
+- [x] 1. [Methodology](methodology.md) of unit conversion
+- [ ] 2. [CGS Units](cgs.md): ESU, EMU and Gaussian
 
 Appendix
 
