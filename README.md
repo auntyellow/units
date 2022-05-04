@@ -8,11 +8,16 @@ I wrote a [note](units_2004.pdf) (in Chinese only) about Units, Physical Constan
 
 Here are some new notes:
 
-- [x] 1. [Methodology](methodology.md) of unit conversion
+- [x] 1. [Methodology](methodology.md) of Unit Conversion
 - [x] 2. [CGS Units](cgs.md): ESU, EMU and Gaussian
+- [ ] 3. Polarization and Magnetization
+- [ ] 4. Natural Units
+- [ ] 5. Atomic Units
 
 Appendix
 
-- [ ] 1. SI and CGS mechanical units
-- [ ] 2. Energy Conversions
-- [ ] 3. Physical Constants (CODATA 2018)
+- [ ] A. SI and CGS Mechanical Units
+- [ ] B. Energy Conversions
+- [ ] C. Physical Constants (CODATA 2018)
+- [ ] D. Non-SI Physical Units
+- [ ] E. Imperial Units

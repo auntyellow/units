@@ -1,12 +1,13 @@
-from uncertainties import ufloat_fromstr
+from uncertainties import ufloat
 from math import pi, sqrt
 
 c = 299792458
 h = 6.62607015e-34
 e = 1.602176634e-19
-a1 = ufloat_fromstr('137.035999084(21)')
-e0 = e**2*a1/2/c/h
-m0 = 1/c**2/e0
+# https://physics.nist.gov/cgi-bin/cuu/Value?alph
+a = 7.2973525693e-03
+a = ufloat(a, a*1.5e-10)
+m0 = 2*h*a/e**2/c
 # m0 = ufloat_fromstr('1.25663706212(19)e-6')
 print('µ_0 =', m0, 'N/A²')
 print('µ_0/(4πx10^-7) =', m0/4/pi/1e-07, 'N/A²')
