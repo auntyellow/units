@@ -40,7 +40,7 @@ The unit of **current** here is:
 
 <img src="https://latex.codecogs.com/gif.latex?1\;\text{abA}=1\;\text{dyn}^{1/2}">
 
-The conversion between Ampere and abA can be found like (1.1a') and (1.1b') mentioned [here](methodology.md):
+The conversion between Ampere and abA can be derived like (1.1a') and (1.1b') mentioned [here](methodology.md):
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}F=\dfrac{\mu_0I^\text{SI}_1I^\text{SI}_2l}{2{\pi}r}\\[1em]F=\dfrac{2I^\text{EM}_1I^\text{EM}_2l}r\end{cases}">
 
@@ -76,7 +76,7 @@ There are many equations containing *c* in Gaussian units, such as Lorentz force
 
 and Biot-Savart law:
 
-<img src="https://latex.codecogs.com/gif.latex?\mathbf{B}^\text{G}=\frac{1}c\oint\frac{I^\text{G}\times\mathbf{\hat{r}}}{r^2}\text{d}\boldsymbol\ell">
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{B}^\text{G}=\frac{1}c\int_C\frac{I^\text{G}\text{d}\boldsymbol\ell\times\mathbf{\hat{r}}}{r^2}">
 
 #### Magnetic B Field
 
@@ -124,9 +124,9 @@ So we have: <sup>[6]</sup>
 
 #### Magnetic Dipole Moment
 
-The [Magnetic Dipole Moment](https://en.wikipedia.org/wiki/Electric_field#Electrostatics) ***µ*** is defined as: <sup>[1]</sup>
+The [Magnetic Dipole Moment](https://en.wikipedia.org/wiki/Electric_field#Electrostatics) **m** is defined by: <sup>[1]</sup>
 
-<img src="https://latex.codecogs.com/gif.latex?\boldsymbol{\tau}=\boldsymbol{\mu}\times\mathbf{B}">
+<img src="https://latex.codecogs.com/gif.latex?\boldsymbol{\tau}=\mathbf{m}\times\mathbf{B}">
 
 where ***τ*** is the torque acting on the dipole.
 
@@ -136,11 +136,11 @@ From (2.4) we get <img src="https://latex.codecogs.com/gif.latex?1\;\text{erg/G}
 
 This conversion can also be derived from [Amperian loop model](https://en.wikipedia.org/wiki/Magnetic_moment#Amperian_loop_model):
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\boldsymbol{\mu}^\text{SI}=I^\text{SI}\mathbf{S}\\\boldsymbol{\mu}^\text{G}=\dfrac{1}cI^\text{G}\mathbf{S}\end{cases}">
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\mathbf{m}^\text{SI}=I^\text{SI}\mathbf{S}\\\mathbf{m}^\text{G}=\dfrac{1}cI^\text{G}\mathbf{S}\end{cases}">
 
 By dividing them and applying <img src="https://latex.codecogs.com/gif.latex?I^\text{SI}=\sqrt{4\pi\varepsilon_0}I^\text{G}"> we get:
 
-<img src="https://latex.codecogs.com/gif.latex?\boldsymbol{\mu}^\text{G}=\frac{1}{\sqrt{4\pi\varepsilon_0}\;c}\boldsymbol{\mu}^\text{SI}">
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{m}^\text{G}=\frac{1}{\sqrt{4\pi\varepsilon_0}\;c}\mathbf{m}^\text{SI}">
 
 We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{statC\;cm}=\frac{x}{\sqrt{4\pi\varepsilon_0}c}\text{Am}^2">: <sup>[5]</sup>
 
