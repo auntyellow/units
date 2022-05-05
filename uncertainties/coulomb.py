@@ -20,4 +20,4 @@ erg = 1e-07
 print('Voltage:     1 statV =', x*erg, 'V')
 print('Resistance:  1 s/cm  =', x**2*erg, 'Ω')
 print('Capacitance: 1 cm    =', 1/x**2/erg, 'F')
-print('Inductance:  1 s²/cm =', x**2*erg, 'H')
+print('Inductance:  1 s^2/cm =', x**2*erg, 'H')

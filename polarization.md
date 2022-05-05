@@ -38,13 +38,10 @@ From (2.1) mentioned [here](cgs.md), (3.1), and relation between (3.4a) and (3.4
 
 - Electric field **E**: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}\overset{\frown}=29979.2458082(22)\;\text{V/m}">
 - Electric polarization **P**: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}=1\;\text{statC/cm}^2\overset{\frown}=3.33564095107(25){\times}10^{-6}\;\text{C/m}^2">
-- Electric displacement field **D**: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}\overset{\frown}=\cdots\;\text{C/m}^2">
+- Electric displacement field **D**: <sup>[3]</sup> <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}\overset{\frown}=2.65441872871(20)10^{-7}\;\text{C/m}^2">
 
 ### Notes
 
 1. These holds in all unit systems.
 2. [Here](https://en.wikipedia.org/wiki/Polarization_density#Gauss's_law_for_the_field_of_P) is the explanation.
-3. [Here](uncertainties/ampere.py) is the calculation.
-3. This also holds in ESU and SI units (2.3a), but does not hold in Gaussian units (2.3b).
-4. [Here](uncertainties/gauss.py) are the calculations.
-5. Before 2019, <img src="https://latex.codecogs.com/gif.latex?1\;\text{abA}\overset{\frown}=10\;\text{A}">, <img src="https://latex.codecogs.com/gif.latex?1\;\text{G}\overset{\frown}=10^{-4}\;\text{T}">, <img src="https://latex.codecogs.com/gif.latex?1\;\text{Mx}\overset{\frown}=10^{-8}\;\text{Wb}"> and <img src="https://latex.codecogs.com/gif.latex?1\;\text{erg/G}\overset{\frown}=10^{-3}\;\text{J/T}"> exactly.
+3. [Here](uncertainties/displacement.py) is the calculation.
