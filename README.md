@@ -10,7 +10,7 @@ Here are some new notes:
 
 - [x] 1. [Methodology](methodology.md) of Unit Conversion
 - [x] 2. [CGS Units](cgs.md): ESU, EMU and Gaussian
-- [ ] 3. Polarization and Magnetization
+- [ ] 3. [Polarization and Magnetization](polarization.md)
 - [ ] 4. Natural Units
 - [ ] 5. Atomic Units
 
