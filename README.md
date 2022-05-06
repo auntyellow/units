@@ -13,12 +13,12 @@ Another reason is to make equations simpler, for example:
 
 Conversions between different unit systems can be found in many textbooks (e.g. appendix in Jackson 1999). However, I'd like to provide a more straight-forward method to make the process easy to understand.
 
-The results here may be far from other materials, because the definition of SI units changed in 2019, which made some physical constants have different uncertainties between SI units and other units.
+Because of [2019 redefinition of the SI base](https://en.wikipedia.org/wiki/2019_redefinition_of_the_SI_base_units), the results here are different from other materials: there are uncertainties in most unit conversions between SI and Gaussian.
 
 - [x] 1. [Methodology](methodology.md) of Unit Conversion
 - [x] 2. [CGS Units](cgs.md): ESU, EMU and Gaussian
 - [x] 3. [Polarization and Magnetization](polarization.md)
-- [ ] 4. Natural Units
+- [x] 4. [Natural Units](natural.md)
 - [ ] 5. Atomic Units
 
 Appendix
