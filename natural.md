@@ -4,9 +4,7 @@
 
 Under the [2019 redefinition of the SI base](https://en.wikipedia.org/wiki/2019_redefinition_of_the_SI_base_units):
 
-<img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}=1.602176634{\times}10^{-19}\;\text{J}">
-
-exactly.
+<img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}=1.602176634{\times}10^{-19}\;\text{J}"> (exactly)
 
 ### Mechanical Units
 
