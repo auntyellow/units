@@ -23,7 +23,7 @@ Because of [2019 redefinition of the SI base](https://en.wikipedia.org/wiki/2019
 
 Appendix
 
-- [ ] A. [Energy Conversions](energy.md)
-- [ ] B. Physical Constants (CODATA 2018)
+- [x] A. [Energy Conversions](energy.md)
+- [ ] B. [Physical Constants](constants.md) (CODATA 2018)
 - [ ] C. Non-SI Physical Units
 - [ ] D. Imperial Units

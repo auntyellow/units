@@ -1,6 +1,6 @@
 ## 5. Atomic Units
 
-In [Atomic Units](https://en.wikipedia.org/wiki/Hartree_atomic_units), reduced Planck constant <img src="https://latex.codecogs.com/gif.latex?\hbar">, elementary charge *e*, Coulomb constant 1/4*πε*<sub>0</sub> and electron mass *m*<sub>0</sub> are defined as 1, which make all physical quantities dimensionless.
+In [Atomic Units](https://en.wikipedia.org/wiki/Hartree_atomic_units), reduced Planck constant <img src="https://latex.codecogs.com/gif.latex?\hbar">, elementary charge *e*, Coulomb constant 1/4*πε*<sub>0</sub> and electron mass *m*<sub>e</sub> are defined as 1, which make all physical quantities dimensionless.
 
 In computational chemistry, for example, the time-independent Schrödinger equation for a multi-electron atom or ion is:
 
