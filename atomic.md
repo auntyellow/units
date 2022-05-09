@@ -41,5 +41,5 @@ Some conversions of mechanical units are: <sup>[2]</sup>
 
 ### Notes
 
-1. The **Correlation Coefficient** (https://physics.nist.gov/cgi-bin/cuu/CCValue?me|ShowSecond=&First=alph) between *α* and *m*<sub>0</sub> is close to 1.0.
+1. The **Correlation Coefficient** (copy and paste instead of click: https://physics.nist.gov/cgi-bin/cuu/CCValue?me|ShowSecond=&First=alph) between *α* and *m*<sub>0</sub> is close to 1.0.
 2. [Here](uncertainties/atomic.py) are the calculations.
