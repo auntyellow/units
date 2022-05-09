@@ -32,7 +32,7 @@ instead of (5.1).
 
 Some conversions of mechanical units are: <sup>[2]</sup>
 
-- angular momentum: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=1.054571817646156...{\times}10^{-34}\;\text{J\;s}"> (exactly)
+- angular momentum: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=1.054571817...{\times}10^{-34}\;\text{J\;s}"> (exactly)
 - mass: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=9.1093837015(27){\times}10^{-31}\;\text{kg}"> (0.30 ppb, refer to (5.2))
 - length: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=5.2917721090(8){\times}10^{-11}\;\text{m}"> (0.15 ppb, refer to (5.3))
 - velocity: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=2.18769126364(33){\times}10^{6}\;\text{m/s}"> (0.15 ppb, <img src="https://latex.codecogs.com/gif.latex?e^2/4\pi\varepsilon_0\hbar=c\alpha">)
@@ -41,5 +41,5 @@ Some conversions of mechanical units are: <sup>[2]</sup>
 
 ### Notes
 
-1. The [Correlation Coefficient](https://physics.nist.gov/cgi-bin/cuu/CCValue?me|ShowSecond=&First=alph) between *α* and *m*<sub>0</sub> is close to 1.0.
+1. The **Correlation Coefficient** (https://physics.nist.gov/cgi-bin/cuu/CCValue?me|ShowSecond=&First=alph) between *α* and *m*<sub>0</sub> is close to 1.0.
 2. [Here](uncertainties/atomic.py) are the calculations.

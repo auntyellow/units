@@ -11,13 +11,13 @@ Under the [2019 redefinition of the SI base](https://en.wikipedia.org/wiki/2019_
 Some conversions of mechanical units are: <sup>[1]</sup>
 
 - velocity: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=299792458\;\text{m/s}">
-- angular momentum: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=1.054571817646156...{\times}10^{-34}\;\text{J\;s}">
-- mass: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}\overset{\frown}=1.782661921627897...{\times}10^{-36}\;\text{kg}"> (<img src="https://latex.codecogs.com/gif.latex?m=E/c^2">)
-- momentum: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}\overset{\frown}=5.34428599267830...{\times}10^{-28}\;\text{kg\;m/s}"> (<img src="https://latex.codecogs.com/gif.latex?p=mv">)
-- angular frequency: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}\overset{\frown}=1.519267447878626...{\times}10^{15}\;\text{Hz}"> (<img src="https://latex.codecogs.com/gif.latex?\omega=E/\hbar">)
-- time: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^{-1}\overset{\frown}=6.58211956950906...{\times}10^{-16}\;\text{s}">
-- length: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^{-1}\overset{\frown}=1.973269804593024...{\times}10^{-7}\;\text{m}"> (<img src="https://latex.codecogs.com/gif.latex?l=ct">)
-- force: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^2\overset{\frown}=8.11939974082986...{\times}10^{-13}\;\text{N}"> (<img src="https://latex.codecogs.com/gif.latex?F=\text{d}p/\text{d}t">)
+- angular momentum: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=1.054571817...{\times}10^{-34}\;\text{J\;s}">
+- mass: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}\overset{\frown}=1.782661921...{\times}10^{-36}\;\text{kg}"> (<img src="https://latex.codecogs.com/gif.latex?m=E/c^2">)
+- momentum: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}\overset{\frown}=5.34428599...{\times}10^{-28}\;\text{kg\;m/s}"> (<img src="https://latex.codecogs.com/gif.latex?p=mv">)
+- angular frequency: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}\overset{\frown}=1.519267447...{\times}10^{15}\;\text{Hz}"> (<img src="https://latex.codecogs.com/gif.latex?\omega=E/\hbar">)
+- time: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^{-1}\overset{\frown}=6.58211956...{\times}10^{-16}\;\text{s}">
+- length: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^{-1}\overset{\frown}=1.973269804...{\times}10^{-7}\;\text{m}"> (<img src="https://latex.codecogs.com/gif.latex?l=ct">)
+- force: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^2\overset{\frown}=8.11939974...{\times}10^{-13}\;\text{N}"> (<img src="https://latex.codecogs.com/gif.latex?F=\text{d}p/\text{d}t">)
 
 ### Electromagnetic Units
 
