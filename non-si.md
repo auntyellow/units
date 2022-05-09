@@ -8,7 +8,7 @@
 - Nautical mile: 1 NM = 1852 m <sup>[1]</sup>
 - Astronomical unit: <img src="https://latex.codecogs.com/gif.latex?1\;\text{au}=1.495978707{\times}10^{11}\;\text{m}">
 - Light-year: <img src="https://latex.codecogs.com/gif.latex?1\;\text{ly}=9.4607304725808{\times}10^{15}\;\text{m}"> <sup>[2]</sup>
-- Parsec: <img src="https://latex.codecogs.com/gif.latex?1\;\text{pc}=1\;au/1''=648,000/\pi\;\text{au}=3.085677581...{\times}10^{16}\;\text{m}">
+- Parsec: <img src="https://latex.codecogs.com/gif.latex?1\;\text{pc}=1\;\text{au}/1''=648000/\pi\;\text{au}=3.085677581...{\times}10^{16}\;\text{m}">
 - Thermochemical calorie: 1 cal<sub>th</sub> = 4.184 J
 - International Steam Table calorie: 1 cal<sub>IT</sub> = 4.1868 J
 - Mechanical horsepower: hp(I) = 33000 ft lbf/min = 745.69987... W
