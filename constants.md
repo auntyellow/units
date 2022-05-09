@@ -1,6 +1,6 @@
-## B. Physical Constants (CODATA 2018)
+## Physical Constants (CODATA 2018)
 
-|Quantity                                 |Symbol         |Numerical value                      |SI Unit                          |Gaussian Unit                    |
+|Quantity                                 |Symbol         |Numerical value                      |SI unit                          |Gaussian unit                    |
 |:----------------------------------------|:--------------|:------------------------------------|:--------------------------------|:--------------------------------|
 |speed of light in vacuum                 |*c*            |2.99792458                           |×10<sup>8</sup> m/s              |×10<sup>10</sup> cm/s            |
 |vacuum magnetic permeability             |*µ*<sub>0</sub>|1.25663706212(19)                    |×10<sup>-6</sup> N/A<sup>2</sup> |-                                |
