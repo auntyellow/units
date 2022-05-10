@@ -21,6 +21,14 @@
 |Stefan-Boltzmann constant <sup>[10]</sup>|*σ*            |5.67037441...                        |×10<sup>-8</sup> W/m<sup>2</sup> K<sup>4</sup>|×10<sup>-33</sup> erg/cm<sup>2</sup> s K<sup>4</sup>|
 |Newtonian constant of gravitation        |*G*            |6.67430(15)                          |×10<sup>-11</sup> m<sup>3</sup>/kg s<sup>2</sup>|×10<sup>-8</sup> cm<sup>3</sup>/g s<sup>2</sup>|
 
+### Physical Constants in Natural Units
+
+- Elementary charge: <img src="https://latex.codecogs.com/gif.latex?e^\text{NU}=\sqrt{4\pi\alpha}=0.302822120872(23)">
+- Rydberg constant: <img src="https://latex.codecogs.com/gif.latex?R_\infty^\text{NU}=13.605693122994(26)\;\text{eV}"> <sup>[11]</sup>
+- Electron mass: <img src="https://latex.codecogs.com/gif.latex?m_e^\text{NU}=2R_\infty/\alpha^2=0.51099895000(15)\;\text{MeV}"> <sup>[11]</sup>
+- Bohr magneton: <img src="https://latex.codecogs.com/gif.latex?\mu_B^\text{NU}=e/2m_e=2.9630405393(11){\times}10^{-7}\;\text{eV}^{-1}">
+- Atomic mass constant: <img src="https://latex.codecogs.com/gif.latex?m_u^\text{NU}=931.49410242(28)\;\text{MeV}">
+
 ### Notes
 
 1. [Here](uncertainties/constants.py) are the calculations.
@@ -33,3 +41,4 @@
 8. <img src="https://latex.codecogs.com/gif.latex?m_u=m(^{12}\text{C})/12">
 9. <img src="https://latex.codecogs.com/gif.latex?F=N_Ae">
 10. <img src="https://latex.codecogs.com/gif.latex?\sigma=2\pi^5k_B^4/15h^3c^2">
+11. Here *R*<sub>∞</sub> means Rydberg constant in energy or **angular frequency**, which is 2*π* times to Rydberg constant in **frequency**.

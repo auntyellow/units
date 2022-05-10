@@ -20,7 +20,7 @@ The atomic unit of length is [Bohr radius](https://en.wikipedia.org/wiki/Bohr_ra
 
 where the relative uncertainties of *α* and *m*<sub>0</sub> are 0.15 and 0.30 ppb respectively. However, the relative uncertainty of *a*<sub>0</sub> is 0.15 ppb but not 0.45 ppb. Because *m*<sub>0</sub> is dependent on *α*. <sup>[1]</sup> Actually we have:
 
-<img src="https://latex.codecogs.com/gif.latex?m_e=\frac{4\pi{\hbar}R_\infty}{c\alpha^2}\quad(5.2)">
+<img src="https://latex.codecogs.com/gif.latex?m_e=\frac{2hR_\infty}{c\alpha^2}\quad(5.2)">
 
 where *R*<sub>∞</sub> is the [Rydberg constant](https://en.wikipedia.org/wiki/Rydberg_constant) with the relative uncertainty of 0.0019 ppb. Therefore, we should calculate the uncertainty of Bohr radius by:
 
