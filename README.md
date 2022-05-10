@@ -26,4 +26,4 @@ Appendix
 - [x] [Energy Conversions](energy.md)
 - [x] [Physical Constants](constants.md) (CODATA 2018)
 - [x] [Non-SI Physical Units](non-si.md)
-- [ ] [Imperial/US Units](imperial.md)
+- [x] [Imperial/US Units](imperial.md)
