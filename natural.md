@@ -1,4 +1,4 @@
-## 4. Natural Units
+## 5. Natural Units
 
 [Natural Units](https://en.wikipedia.org/wiki/Natural_units#Natural_units_(particle_and_atomic_physics)) are widely used in quantum field theory. In this unit system, speed of light in vacuum *c*, reduced Planck constant <img src="https://latex.codecogs.com/gif.latex?\hbar"> and vacuum electric permittivity *ε*<sub>0</sub> are defined as 1, and **energy** (usually in eV) is the only base quantity.
 

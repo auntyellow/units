@@ -84,7 +84,7 @@ From (2.4) mentioned [here](cgs.md), relation between (3.5a) and (3.5b), relatio
 
 ### Notes
 
-1. These holds in all unit systems.
+1. These always hold in all unit systems.
 2. [Here](https://en.wikipedia.org/wiki/Polarization_density#Gauss's_law_for_the_field_of_P) is the explanation.
 3. [Here](uncertainties/displacement.py) is the calculation.
 4. Refer to [here](https://en.wikipedia.org/wiki/Magnetization#Magnetization_current).

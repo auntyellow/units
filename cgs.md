@@ -152,7 +152,7 @@ So we have: <sup>[6]</sup>
 
 ### Notes
 
-1. These holds in all unit systems.
+1. These always hold in all unit systems.
 2. Ampère's force law in ESU is <img src="https://latex.codecogs.com/gif.latex?F=2I^\text{ES}_1I^\text{ES}_2l/c^2r">.
 3. [Here](uncertainties/ampere.py) is the calculation.
 3. This also holds in ESU and SI units (2.3a), but does not hold in Gaussian units (2.3b).

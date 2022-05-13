@@ -1,4 +1,4 @@
-## 5. Atomic Units
+## 6. Atomic Units
 
 In [Atomic Units](https://en.wikipedia.org/wiki/Hartree_atomic_units), reduced Planck constant <img src="https://latex.codecogs.com/gif.latex?\hbar">, elementary charge *e*, Coulomb constant 1/4*πε*<sub>0</sub> and electron mass *m*<sub>e</sub> are defined as 1, which make all physical quantities dimensionless.
 
@@ -16,25 +16,25 @@ It can be simplified in atomic units as:
 
 The atomic unit of length is [Bohr radius](https://en.wikipedia.org/wiki/Bohr_radius):
 
-<img src="https://latex.codecogs.com/gif.latex?a_0=\frac{4\pi\varepsilon_0\hbar^2}{m_ee^2}=\frac{\hbar}{c{\alpha}m_e}\quad(5.1)">
+<img src="https://latex.codecogs.com/gif.latex?a_0=\frac{4\pi\varepsilon_0\hbar^2}{m_ee^2}=\frac{\hbar}{c{\alpha}m_e}\quad(6.1)">
 
 where the relative uncertainties of *α* and *m*<sub>0</sub> are 0.15 and 0.30 ppb respectively. However, the relative uncertainty of *a*<sub>0</sub> is 0.15 ppb but not 0.45 ppb. Because *m*<sub>0</sub> is dependent on *α*. <sup>[1]</sup> Actually we have:
 
-<img src="https://latex.codecogs.com/gif.latex?m_e=\frac{2hR_\infty}{c\alpha^2}\quad(5.2)">
+<img src="https://latex.codecogs.com/gif.latex?m_e=\frac{2hR_\infty}{c\alpha^2}\quad(6.2)">
 
 where *R*<sub>∞</sub> is the [Rydberg constant](https://en.wikipedia.org/wiki/Rydberg_constant) with the relative uncertainty of 0.0019 ppb. Therefore, we should calculate the uncertainty of Bohr radius by:
 
-<img src="https://latex.codecogs.com/gif.latex?a_0=\frac{\alpha}{4{\pi}R_\infty}\quad(5.3)">
+<img src="https://latex.codecogs.com/gif.latex?a_0=\frac{\alpha}{4{\pi}R_\infty}\quad(6.3)">
 
-instead of (5.1).
+instead of (6.1).
 
 ### Mechanical Units
 
 Some conversions of mechanical units are: <sup>[2]</sup>
 
 - angular momentum: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=1.054571817...{\times}10^{-34}\;\text{J\;s}"> (exactly)
-- mass: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=9.1093837015(27){\times}10^{-31}\;\text{kg}"> (0.30 ppb, refer to (5.2))
-- length: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=5.2917721090(8){\times}10^{-11}\;\text{m}"> (0.15 ppb, refer to (5.3))
+- mass: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=9.1093837015(27){\times}10^{-31}\;\text{kg}"> (0.30 ppb, refer to (6.2))
+- length: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=5.2917721090(8){\times}10^{-11}\;\text{m}"> (0.15 ppb, refer to (6.3))
 - velocity: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=2.18769126364(33){\times}10^{6}\;\text{m/s}"> (0.15 ppb, <img src="https://latex.codecogs.com/gif.latex?e^2/4\pi\varepsilon_0\hbar=c\alpha">)
 - time: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=2.418884326586(5){\times}10^{-17}\;\text{s}"> (0.0019 ppb, <img src="https://latex.codecogs.com/gif.latex?a_0/c\alpha=1/4{\pi}cR_\infty">)
 - energy: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=4.359744722207(8){\times}10^{-18}\;\text{J}"> (0.0019 ppb, <img src="https://latex.codecogs.com/gif.latex?m_ec^2\alpha^2=4\pi{\hbar}R_\infty">)
