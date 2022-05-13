@@ -23,9 +23,9 @@ Let's assume that (5.1) and (5.2) hold in all unit systems, then we have differe
 - SI units: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=8.8541878128(13){\times}10^{-12}\text{F/m}">
 - ESU and Gaussian units: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1/4\pi">
 - EMU: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=c^2/4\pi">
-- Lorentz-Heaviside and natural units: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1">
+- Heaviside-Lorentz and natural units: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1">
 
-The electric polarization **P** is defined as: <sup>[1]</sup>
+The electric polarization is defined as: <sup>[1]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{P}=\frac{\text{d}\mathbf{p}}{\text{d}V}">
 
@@ -43,7 +43,7 @@ Let's introduce a new equation for electric displacement field:
 
 Let's assume that (5.5) holds in all unit systems, then we have different *λ*:
 
-- SI, Lorentz-Heaviside and natural units: <img src="https://latex.codecogs.com/gif.latex?\lambda=1">
+- SI, Heaviside-Lorentz and natural units: <img src="https://latex.codecogs.com/gif.latex?\lambda=1">
 - ESU, EMU and Gaussian units: <img src="https://latex.codecogs.com/gif.latex?\lambda=4\pi">
 
 After applying (5.2), (5.3) and (5.4) on (5.5), we get the macroscopic form of Gauss's law:
@@ -61,7 +61,7 @@ Let's assume that (5.6) holds in all unit systems, then we have different *µ*<s
 - SI units: <img src="https://latex.codecogs.com/gif.latex?\mu_0=1.25663706212(19){\times}10^{-6}\;\text{N/A}^2">
 - ESU and Gaussian units: <img src="https://latex.codecogs.com/gif.latex?\mu_0=4\pi/c^2">
 - EMU: <img src="https://latex.codecogs.com/gif.latex?\mu_0=4\pi">
-- Lorentz-Heaviside units: <img src="https://latex.codecogs.com/gif.latex?\mu_0=1/c^2">
+- Heaviside-Lorentz units: <img src="https://latex.codecogs.com/gif.latex?\mu_0=1/c^2">
 - natural units: <img src="https://latex.codecogs.com/gif.latex?\mu_0=1/c^2=1">
 
 And we have *α*<sub>L</sub> in Lorentz force, Maxwell–Faraday equation and Ampère-Maxwell equation:
@@ -91,7 +91,7 @@ where **J**<sub>**p**</sub> is the polarization current density: <sup>[1]</sup>
 Let's assume that (5.7), (5.8), (5.9) and (5.10) hold in all unit systems, then we have different *α*<sub>L</sub>:
 
 - SI units, ESU and EMU: *α*<sub>L</sub> = 1
-- Gaussian and Lorentz-Heaviside units: *α*<sub>L</sub> = 1/*c*
+- Gaussian and Heaviside-Lorentz units: *α*<sub>L</sub> = 1/*c*
 - natural units: *α*<sub>L</sub> = 1/*c* = 1
 
 Let's introduce a new equation for magnetic **H** field:
