@@ -107,6 +107,8 @@ Let's define the magnetic **H** field as:
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\alpha_L^2\mathbf{B}}{\mu_0}-\lambda\mathbf{M}\quad(5.9)">
 
+which also holds in all unit systems.
+
 After applying (5.4), (5.5), (5.6), (5.7) and (5.8) on (5.9), we get the macroscopic form of Ampère-Maxwell equation:
 
 <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{H}=\alpha_L\left(\lambda\mathbf{J_f}+\frac{\partial\mathbf{D}}{\partial{t}}\right)">
@@ -117,6 +119,75 @@ In diamagnets and paramagnets, the relation between **B** and **H** is usually l
 
 where *µ* is the (absolute) permeability, *µ*<sub>r</sub> is the relative permeability and *χ*<sub>e</sub> is the magnetic susceptibility (negative for diamagnets and positive for paramagnets).
 
+### Summary
+
+We introduced constants *λ* and *α*<sub>L</sub> in different unit systems.
+
+*λ* depends on whether the unit system is rationalized or non-rationalized:
+
+- rationalized unit systems set *λ* = 1, such as SI, Heaviside-Lorentz and natural units, which prefer a clean form for Maxwell's equations.
+- nonrationalized unit systems set *λ* = 4*π*, such as ESU, EMU and Gaussian units, which prefer a clean form for Coulomb's law, Ampère's force law and Biot-Savart law.
+
+*α*<sub>L</sub> depends on the definition of magnetic **B** field:
+
+- *α*<sub>L</sub> = 1, such as SI units, ESU and EMU, which defines **B** by Lorentz force.
+- *α*<sub>L</sub> = *c*, such as Gaussian and Heaviside-Lorentz units, which makes **B** the same dimension as **E**.
+- *α*<sub>L</sub> = *c* = 1, such as natural units, which takes both above advantages.
+
+The differences between ESU and EMU are *ε*<sub>0</sub> and *µ*<sub>0</sub>:
+
+- ESU: *ε*<sub>0</sub> = 1 and *µ*<sub>0</sub> = 1/*c*<sup>2</sup>, prefer Coulomb's law.
+- EMU: *ε*<sub>0</sub> = 1/*c*<sup>2</sup> and *µ*<sub>0</sub> = 1, prefer Ampère's force law and Biot-Savart law.
+
+|System           |*ε*<sub>0</sub>  |*µ*<sub>0</sub>  |*λ* |*α*<sub>L</sub>|*k*<sub>C</sub>  |*k*<sub>A</sub>    |
+|:----------------|:----------------|:----------------|:---|:--------------|:----------------|:------------------|
+|SI               |8.8541878128(13)×10<sup>-12</sup> F/m|1.25663706212(19)×10<sup>-6</sup> N/A<sup>2</sup>|1|1/4*πε*<sub>0</sub>|*µ*<sub>0</sub>/4*π*|
+|ESU              |1                |1/*c*<sup>2</sup>|4*π*|1              |1                |1/c<sup>2</sup>    |
+|EMU              |1/*c*<sup>2</sup>|1                |4*π*|1              |1/*c*<sup>2</sup>|1                  |
+|Gaussian         |1                |1                |4*π*|*c*            |1                |1/*c*<sup>2</sup>  |
+|Heaviside-Lorentz|1                |1                |1   |*c*            |1/4*π*           |1/4*π*c<sup>2</sup>|
+|Natural          |1                |1                |1   |*c* = 1        |1/4*π*           |1/4*π*             |
+
+Here *k*<sub>C</sub> is the coefficient in Coulomb's law: <sup>[6]</sup>
+
+<img src="https://latex.codecogs.com/gif.latex?k_C=\frac{\lambda}{4\pi\varepsilon_0}">
+
+<img src="https://latex.codecogs.com/gif.latex?F=\frac{k_Cq_1q_2}{r^2}">
+
+and *k*<sub>A</sub> is the coefficient in Ampère's force law and Biot-Savart law: <sup>[7]</sup>
+
+<img src="https://latex.codecogs.com/gif.latex?k_A=\frac{k_C}{c^2}=\frac{\lambda\alpha_L^2\mu_0}{4\pi}">
+
+<img src="https://latex.codecogs.com/gif.latex?F=\frac{k_AI_1I_2l}{2r}">
+
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\frac{k_A}{\alpha_L}\int_C\frac{I\text{d}\boldsymbol\ell\times\mathbf{\hat{r}}}{r^2}">
+
+where *ε*<sub>0</sub>, *µ*<sub>0</sub> and *α*<sub>L</sub> follow the special relativity:
+
+<img src="https://latex.codecogs.com/gif.latex?\alpha_L^2\mu_0{\varepsilon_0}c^2=1">
+
+The system-independent Maxwell equations are:
+
+- Gauss's law: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{E}=\frac{\lambda\rho}{\varepsilon_0}">
+- macroscopic Gauss's law: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{D}=\lambda\rho_f">
+- Gauss's law for magnetism: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{B}=0">
+- Maxwell-Faraday equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{E}=-\alpha_L\frac{\partial\mathbf{B}}{\partial{t}}">
+- Ampère-Maxwell equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{B}=\alpha_L\mu_0\left(\lambda\mathbf{J}+\varepsilon_0\frac{\partial\mathbf{E}}{\partial{t}}\right)">
+- macroscopic Ampère-Maxwell equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{H}=\alpha_L\left(\lambda\mathbf{J_f}+\frac{\partial\mathbf{D}}{\partial{t}}\right)">
+
+Additional equations are:
+
+- total charge density: <img src="https://latex.codecogs.com/gif.latex?\rho=\rho_f+\rho_b">
+- electric polarization: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{P}=-\rho_b">
+- electric displacement field: <img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon_0\mathbf{E}+\lambda\mathbf{P}">
+- electric permittivity: <img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon\mathbf{E}=\varepsilon_r\varepsilon_0\mathbf{E}=(1+\chi_e)\varepsilon_0\mathbf{E}">
+- total current density: <img src="https://latex.codecogs.com/gif.latex?\mathbf{J}=\mathbf{J_f}+\mathbf{J_m}+\mathbf{J_p}">
+- magnetization current density: <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{M}=\alpha_L\mathbf{J_m}">
+- polarization current density: <img src="https://latex.codecogs.com/gif.latex?\mathbf{J_p}=\frac{\partial\mathbf{P}}{\partial{t}}">
+- magnetic **H** field: <img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\alpha_L^2\mathbf{B}}{\mu_0}-\lambda\mathbf{M}">
+- magnetic permeability: <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\chi_m)\mu_0\mathbf{H}"> (in diamagnets and paramagnets)
+- Lorentz force: <img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q(\mathbf{E}+\alpha_L\mathbf{v}\times\mathbf{B})">
+
 ### Notes
 
 1. These always hold in all unit systems.
@@ -124,3 +195,5 @@ where *µ* is the (absolute) permeability, *µ*<sub>r</sub> is the relative perm
 3. In anisotropic dielectric, the permittivity is a second rank tensor.
 4. This does not hold for ferromagnets, ferrimagnets and antiferromagnets.
 5. We skip discussion of inductance and permeability here because they are more complicated than capacitance and permittivity.
+6. Coulomb's law is the combination of Gauss's law and Lorentz force.
+7. Ampère's force law is the combination of Biot-Savart law and Lorentz force, and Biot-Savart law is the magnetostatic situation of Ampère-Maxwell equation.
