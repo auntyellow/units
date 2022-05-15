@@ -22,7 +22,7 @@ Let's assume <img src="https://latex.codecogs.com/gif.latex?q^\text{SI}=kq^\text
 
 <img src="https://latex.codecogs.com/gif.latex?q^\text{SI}=\sqrt{4\pi\varepsilon_0}q^\text{G}\quad(1.3)">
 
-Now we have a question: How many **statC** does a **Coulomb** equal (correspond) to?
+Now we have a question: How many **statC** does a **coulomb** equal (correspond) to?
 
 Let's apply (1.3) as:
 

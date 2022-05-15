@@ -48,7 +48,7 @@ By dividing them we get:
 
 <img src="https://latex.codecogs.com/gif.latex?I^\text{EM}=\sqrt\frac{\mu_0}{4\pi}I^\text{SI}">
 
-We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{abA}=\sqrt\frac{\mu_0}{4\pi}\;x\;\text{A}">: <sup>[3]</sup>
+We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{abA}=\sqrt{\mu_0/4\pi}\;x\;\text{A}">: <sup>[3]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?{x=\sqrt\frac{4\pi}{\mu_0}\frac{\text{abA}}{\text{A}}=\sqrt\frac{4\pi}{1.25663706212(19){\times}10^{-6}\;\text{N/A}^2}\frac{\text{dyn}^{1/2}}{\text{A}}=\dots=9.9999999973(7)}">
 
@@ -80,7 +80,7 @@ and Biot-Savart law:
 
 #### Magnetic B Field
 
-The conversion between Tesla and Gauss can be derived from:
+The conversion between tesla and gauss can be derived from:
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}\mathbf{F_{magnetic}}=q^\text{SI}(\mathbf{v}\times\mathbf{B}^\text{SI})&(2.3\text{a})\\\mathbf{F_{magnetic}}=q^\text{G}(\dfrac{1}c\mathbf{v}\times\mathbf{B^\text{G}})&(2.3\text{b})\end{cases}">
 
@@ -110,7 +110,7 @@ This conversion can also be derived from the definition along with the electric 
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}\mathbf{E}^\text{SI}=-\nabla\phi^\text{SI}-\dfrac{\partial\mathbf{A}^\text{SI}}{\partial{t}}\\[1em]\mathbf{E}^\text{G}=-\nabla\phi^\text{G}-\dfrac{1}c\dfrac{\partial\mathbf{A}^\text{G}}{\partial{t}}\end{cases}">
 
-By dividing them and applying <img src="https://latex.codecogs.com/gif.latex?\mathbf{E}^\text{SI}=\frac{1}{\sqrt{4\pi\varepsilon_0}}\mathbf{E}^\text{G}"> we get:
+By dividing them and applying <img src="https://latex.codecogs.com/gif.latex?\sqrt{4\pi\varepsilon_0}\mathbf{E}^\text{SI}=\mathbf{E}^\text{G}"> we get:
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{A}^\text{G}=\sqrt{4\pi\varepsilon_0}\;c\;\mathbf{A}^\text{SI}">
 
@@ -136,7 +136,7 @@ This conversion can also be derived from [Faraday's Law of Induction](https://en
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}\mathcal{E}^\text{SI}=-\dfrac{\text{d}\Phi^\text{SI}}{\text{d}t}\\[1em]\mathcal{E}^\text{G}=-\dfrac{1}c\dfrac{\text{d}\Phi^\text{G}}{\text{d}t}\end{cases}">
 
-By dividing them and applying <img src="https://latex.codecogs.com/gif.latex?\mathcal{E}^\text{SI}=\frac{1}{\sqrt{4\pi\varepsilon_0}}\mathcal{E}^\text{G}"> we get:
+By dividing them and applying <img src="https://latex.codecogs.com/gif.latex?\sqrt{4\pi\varepsilon_0}\mathcal{E}^\text{SI}=\mathcal{E}^\text{G}"> we get:
 
 <img src="https://latex.codecogs.com/gif.latex?\Phi^\text{G}=\sqrt{4\pi\varepsilon_0}\;c\;\Phi^\text{SI}">
 
@@ -168,7 +168,7 @@ By dividing them and applying <img src="https://latex.codecogs.com/gif.latex?I^\
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{m}^\text{G}=\frac{1}{\sqrt{4\pi\varepsilon_0}\;c}\mathbf{m}^\text{SI}">
 
-We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{statC\;cm}=\frac{x}{\sqrt{4\pi\varepsilon_0}c}\text{Am}^2">: <sup>[5]</sup>
+We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{statC\;cm}=x\;/\sqrt{4\pi\varepsilon_0}c\;\text{Am}^2">: <sup>[5]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?{x=\frac{1\;\text{statC\;cm}\sqrt{4\pi\varepsilon_0}\;c}{\text{Am}^2}=\frac{1\;\text{dyn}^{1/2}\text{cm}^2\sqrt{4\pi{\times}8.8541878128(13){\times}10^{-12}\text{C}^2/\text{Nm}^2}\;299792458\;\text{m/s}}{\text{Am}^2}=\dots=0.99999999973(7){\times}10^{-3}">
 
