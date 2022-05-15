@@ -125,19 +125,24 @@ We introduced constants *λ* and *α*<sub>L</sub> in different unit systems.
 
 *λ* depends on whether the unit system is rationalized or non-rationalized:
 
-- rationalized unit systems set *λ* = 1, such as SI, Heaviside-Lorentz and natural units, which prefer a clean form for Maxwell's equations.
-- nonrationalized unit systems set *λ* = 4*π*, such as ESU, EMU and Gaussian units, which prefer a clean form for Coulomb's law, Ampère's force law and Biot-Savart law.
+- *λ* = 1 (rationalized) prefers simple forms for Maxwell's equations.
+- *λ* = 4*π* (non-rationalized) prefers simple forms for Coulomb's law, Ampère's force law and Biot-Savart law.
 
 *α*<sub>L</sub> depends on the definition of magnetic **B** field:
 
-- *α*<sub>L</sub> = 1, such as SI units, ESU and EMU, which defines **B** by Lorentz force.
-- *α*<sub>L</sub> = *c*, such as Gaussian and Heaviside-Lorentz units, which makes **B** the same dimension as **E**.
-- *α*<sub>L</sub> = *c* = 1, such as natural units, which takes both above advantages.
+- *α*<sub>L</sub> = 1 defines **B** by Lorentz force.
+- *α*<sub>L</sub> = *c* makes **B** the same dimension as **E**.
+- *α*<sub>L</sub> = *c* = 1 takes both above advantages.
+
+|                             |*α*<sub>L</sub> = 1|*α*<sub>L</sub> = *c* = 1|*α*<sub>L</sub> = *c*|
+|:----------------------------|:------------------|:------------------------|:--------------------|
+|*λ* = 1 (rationalized)       |SI                 |Natural                  |Heaviside-Lorentz    |
+|*λ* = 4*π* (non-rationalized)|ESU, EMU           |-                        |Gaussian             |
 
 The differences between ESU and EMU are *ε*<sub>0</sub> and *µ*<sub>0</sub>:
 
-- ESU: *ε*<sub>0</sub> = 1 and *µ*<sub>0</sub> = 1/*c*<sup>2</sup>, prefer Coulomb's law.
-- EMU: *ε*<sub>0</sub> = 1/*c*<sup>2</sup> and *µ*<sub>0</sub> = 1, prefer Ampère's force law and Biot-Savart law.
+- ESU: *ε*<sub>0</sub> = 1 and *µ*<sub>0</sub> = 1/*c*<sup>2</sup>, prefer simple Coulomb's law.
+- EMU: *ε*<sub>0</sub> = 1/*c*<sup>2</sup> and *µ*<sub>0</sub> = 1, prefer simple Ampère's force law and Biot-Savart law.
 
 |System           |*ε*<sub>0</sub>  |*µ*<sub>0</sub>  |*λ* |*α*<sub>L</sub>|*k*<sub>C</sub>  |*k*<sub>A</sub>    |
 |:----------------|:----------------|:----------------|:---|:--------------|:----------------|:------------------|

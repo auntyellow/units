@@ -68,7 +68,7 @@ So the unit of magnetic B field in EMU is:
 
 ### Gaussian Units
 
-From (2.1) and (2.2) we get the fact that electric field in ESU and magnetic B field in EMU share the same dimension and unit. This is an advantage of **Gaussian Units**, where only magnetic quantities (B and H fields, magnetization, flux and dipole moment) come from EMU and the others (including inductance *L*) come from ESU.
+From (2.1) and (2.2) we get the fact that electric field in ESU and magnetic B field in EMU share the same dimension and unit. This is an advantage of **Gaussian Units**, where only magnetic quantities (B and H fields, magnetization, vector potential, flux and dipole moment) come from EMU and the others (including inductance *L*) come from ESU.
 
 There are many equations containing *c* in Gaussian units, such as Lorentz force:
 
@@ -95,6 +95,32 @@ We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{G}=\
 So we have: <sup>[6]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?1\;\text{G}\overset{\frown}=1.00000000027(8){\times}10^{-4}\;\text{T}\quad(2.4)">
+
+#### Magnetic Vector Potential
+
+The [Magnetic Vector Potential](https://en.wikipedia.org/wiki/Magnetic_vector_potential) **A** is defined by: <sup>[1]</sup>
+
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\nabla\times\mathbf{A}">
+
+The unit of magnetic vector potential here is G cm or statV s/cm.
+
+From (2.4) we get <img src="https://latex.codecogs.com/gif.latex?1\;\text{G\;cm\;(or\;statV\;s/cm)}\overset{\frown}=1.00000000027(8){\times}10^{-6}\;\text{T\;m\;(or\;V\;s/m)}">.
+
+This conversion can also be derived from the definition along with the electric potential *φ*:
+
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\mathbf{E}^\text{SI}=-\nabla\phi^\text{SI}-\dfrac{\partial\mathbf{A}^\text{SI}}{\partial{t}}\\[1em]\mathbf{E}^\text{G}=-\nabla\phi^\text{G}-\dfrac{1}c\dfrac{\partial\mathbf{A}^\text{G}}{\partial{t}}\end{cases}">
+
+By dividing them and applying <img src="https://latex.codecogs.com/gif.latex?\mathbf{E}^\text{SI}=\frac{1}{\sqrt{4\pi\varepsilon_0}}\mathbf{E}^\text{G}"> we get:
+
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{A}^\text{G}=\sqrt{4\pi\varepsilon_0}\;c\;\mathbf{A}^\text{SI}">
+
+We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV\;s/cm}=\sqrt{4\pi\varepsilon_0}\;c\;x\;\text{V\;s/m}">: <sup>[5]</sup>
+
+<img src="https://latex.codecogs.com/gif.latex?{x=\frac{1\;\text{statV\;s/cm}}{\sqrt{4\pi\varepsilon_0}\;c\;\text{V\;s/m}}=\frac{1\;\text{dyn}^{1/2}\text{s/cm}}{\sqrt{4\pi{\times}8.8541878128(13){\times}10^{-12}\text{C}^2/\text{Nm}^2}\;299792458\;\text{m/s}\;\text{Ns/C}}=\dots=1.00000000027(8){\times}10^{-6}}">
+
+So we have:
+
+<img src="https://latex.codecogs.com/gif.latex?1\;\text{statV\;s/cm}\overset{\frown}=1.00000000027(8){\times}10^{-6}\;\text{V\;s/m}">
 
 #### Magnetic Flux
 
@@ -146,7 +172,7 @@ We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{stat
 
 <img src="https://latex.codecogs.com/gif.latex?{x=\frac{1\;\text{statC\;cm}\sqrt{4\pi\varepsilon_0}\;c}{\text{Am}^2}=\frac{1\;\text{dyn}^{1/2}\text{cm}^2\sqrt{4\pi{\times}8.8541878128(13){\times}10^{-12}\text{C}^2/\text{Nm}^2}\;299792458\;\text{m/s}}{\text{Am}^2}=\dots=0.99999999973(7){\times}10^{-3}">
 
-So we have: <sup>[6]</sup>
+So we have:
 
 <img src="https://latex.codecogs.com/gif.latex?1\;\text{statC\;cm}\overset{\frown}=0.99999999973(7){\times}10^{-3}\;\text{Am}^2">
 
@@ -157,4 +183,4 @@ So we have: <sup>[6]</sup>
 3. [Here](uncertainties/ampere.py) is the calculation.
 3. This also holds in ESU and SI units (2.3a), but does not hold in Gaussian units (2.3b).
 4. [Here](uncertainties/gauss.py) are the calculations.
-5. Before 2019, <img src="https://latex.codecogs.com/gif.latex?1\;\text{abA}\overset{\frown}=10\;\text{A}">, <img src="https://latex.codecogs.com/gif.latex?1\;\text{G}\overset{\frown}=10^{-4}\;\text{T}">, <img src="https://latex.codecogs.com/gif.latex?1\;\text{Mx}\overset{\frown}=10^{-8}\;\text{Wb}"> and <img src="https://latex.codecogs.com/gif.latex?1\;\text{erg/G}\overset{\frown}=10^{-3}\;\text{J/T}"> exactly.
+5. Before 2019, <img src="https://latex.codecogs.com/gif.latex?1\;\text{abA}\overset{\frown}=10\;\text{A}">, <img src="https://latex.codecogs.com/gif.latex?1\;\text{G}\overset{\frown}=10^{-4}\;\text{T}"> and <img src="https://latex.codecogs.com/gif.latex?1\;\text{Mx}\overset{\frown}=10^{-8}\;\text{Wb}"> exactly.

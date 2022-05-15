@@ -22,6 +22,11 @@ mx = gs*cm**2
 x = mx/(4*pi*e0)**.5/c
 print(f'1 Mx = {x:S} Wb')
 print(f'1 Wb = {1/x:S} Mx')
+# magnetic vector potential
+statV = sqrt(dyn)
+x = statV/(4*pi*e0)**.5/c
+print(f'1 G cm = {x:S} T m')
+print(f'1 T m = {1/x:S} G cm')
 # magnetic dipole moment
 statC = sqrt(dyn)*cm
 x = statC*cm*(4*pi*e0)**.5*c

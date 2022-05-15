@@ -39,6 +39,7 @@ From (2.1) mentioned [here](cgs.md), (3.1), relation between (3.4a) and (3.4b), 
 - Electric field **E**: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}\overset{\frown}=29979.2458082(22)\;\text{V/m}">
 - Electric polarization **P**: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}=1\;\text{statC/cm}^2\overset{\frown}=3.33564095107(25){\times}10^{-6}\;\text{C/m}^2">
 - Electric displacement field **D**: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}=1\;\text{statC/cm}^2\overset{\frown}=2.65441872871(20)10^{-7}\;\text{C/m}^2"> <sup>[3]</sup>
+- Electric displacement flux Φ<sub>D</sub>: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statC}\overset{\frown}=2.65441872871(20)10^{-11}\;\text{C}"> (1/4*π* to the electric charge conversion)
 
 ### Magnetization and H Field
 
