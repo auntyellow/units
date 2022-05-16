@@ -1,0 +1,21 @@
+from sympy import Eq, solve, symbols
+
+f_si, f_g, f_n, q_si, q_g, q_n, b_si, b_g, b_n, r, v = symbols('F^SI, F^G, F^N, q^SI, q^G, q^N, B^SI, B^G, B^N, r, v')
+pi, hbar, c, e, a = symbols('π, ħ, c, e, α')
+e0 = e**2/4/pi/hbar/c/a
+eq1a = Eq(f_si, f_n/hbar/c)
+eq1b = Eq(f_g, f_n/hbar/c)
+eq2 = Eq(f_si, q_si**2/4/pi/e0/r**2)
+eq3 = Eq(f_g, q_g**2/r**2)
+eq4 = Eq(f_n, q_n**2/4/pi/r**2)
+s24 = solve([eq1a, eq2, eq4], [f_si, f_n, q_n])
+s34 = solve([eq1b, eq3, eq4], [f_g, f_n, q_n])
+# choose s24[1] (positive) and s34[1] (positive)
+print(f'q^N = {s24[1][2]/q_si} q^SI = {s34[1][2]/q_g} q^G')
+eq6 = Eq(f_si, q_si*v*b_si)
+eq7 = Eq(f_g, q_g*v*b_g/c)
+eq8 = Eq(f_n, q_n*v*b_n)
+s68 = solve([eq1a, eq2, eq4, eq6, eq8], [f_si, f_n, q_si, q_n, b_n])
+s78 = solve([eq1b, eq3, eq4, eq7, eq8], [f_g, f_n, q_g, q_n, b_n])
+# choose s68[2] (positive) and s78[2] (positive)
+print(f'B^N = {s68[2][4]/b_si} B^SI = {s78[2][4]/b_g} B^G')
