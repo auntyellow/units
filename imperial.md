@@ -62,6 +62,6 @@
 |short ton (US)               |         |20 short cwt|907.18474 kg                |
 |long ton (Imperial)          |         |20 long cwt |1016.0469088 kg             |
 
-### Notes
+### Note
 
 1. Definition.

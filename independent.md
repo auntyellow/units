@@ -146,20 +146,20 @@ The differences between ESU and EMU are *ε*<sub>0</sub> and *µ*<sub>0</sub>:
 
 |System           |*ε*<sub>0</sub>  |*µ*<sub>0</sub>  |*λ* |*α*<sub>L</sub>|*k*<sub>C</sub>  |*k*<sub>A</sub>    |
 |:----------------|:----------------|:----------------|:---|:--------------|:----------------|:------------------|
-|SI               |8.8541878128(13)×10<sup>-12</sup> F/m|1.25663706212(19)×10<sup>-6</sup> N/A<sup>2</sup>|1|1/4*πε*<sub>0</sub>|*µ*<sub>0</sub>/4*π*|
+|SI               |8.8541878128(13)×10<sup>-12</sup> F/m <sup>[6]</sup>|1.25663706212(19)×10<sup>-6</sup> N/A<sup>2</sup> <sup>[6]</sup>|1|1/4*πε*<sub>0</sub>|*µ*<sub>0</sub>/4*π*|
 |ESU              |1                |1/*c*<sup>2</sup>|4*π*|1              |1                |1/c<sup>2</sup>    |
 |EMU              |1/*c*<sup>2</sup>|1                |4*π*|1              |1/*c*<sup>2</sup>|1                  |
 |Gaussian         |1                |1                |4*π*|*c*            |1                |1/*c*<sup>2</sup>  |
 |Heaviside-Lorentz|1                |1                |1   |*c*            |1/4*π*           |1/4*π*c<sup>2</sup>|
 |Natural          |1                |1                |1   |*c* = 1        |1/4*π*           |1/4*π*             |
 
-Here *k*<sub>C</sub> is the coefficient in Coulomb's law: <sup>[6]</sup>
+Here *k*<sub>C</sub> is the coefficient in Coulomb's law: <sup>[7]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?k_C=\frac{\lambda}{4\pi\varepsilon_0}">
 
 <img src="https://latex.codecogs.com/gif.latex?F=\frac{k_Cq_1q_2}{r^2}">
 
-and *k*<sub>A</sub> is the coefficient in Ampère's force law and Biot-Savart law: <sup>[7]</sup>
+and *k*<sub>A</sub> is the coefficient in Ampère's force law and Biot-Savart law: <sup>[8]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?k_A=\frac{k_C}{c^2}=\frac{\lambda\alpha_L^2\mu_0}{4\pi}">
 
@@ -201,5 +201,6 @@ Additional equations are:
 3. In anisotropic dielectric, the permittivity is a second rank tensor.
 4. This does not hold for ferromagnets, ferrimagnets and antiferromagnets.
 5. We skip discussion of inductance and permeability here because they are more complicated than capacitance and permittivity.
-6. Coulomb's law is the combination of Gauss's law and Lorentz force.
-7. Ampère's force law is the combination of Biot-Savart law and Lorentz force, and Biot-Savart law is the magnetostatic situation of Ampère-Maxwell equation.
+6. <img src="https://latex.codecogs.com/gif.latex?\mu_0=2h\alpha/e^2c"> and <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1/\mu_0c^2">, where *e*, *h* and *c* are exact values by SI definition. Before 2019, <img src="https://latex.codecogs.com/gif.latex?\mu_0=4\pi{\times}10^{-7}\;\text{N/A}^2"> exactly.
+7. Coulomb's law is the combination of Gauss's law and Lorentz force.
+8. Ampère's force law is the combination of Biot-Savart law and Lorentz force, and Biot-Savart law is the magnetostatic situation of Ampère-Maxwell equation.
