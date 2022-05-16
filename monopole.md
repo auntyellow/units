@@ -92,7 +92,7 @@ The conversions between above 5 units of magnetic charge can be derived by compa
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}\nabla\cdot\mathbf{B}^\text{G}=4\pi\rho_m^\text{G}&(6.2\text{g})\\[1em]\nabla\cdot\mathbf{B}^\text{N}=\rho_m^\text{N}&(6.2\text{n})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\rho_m^\text{SI-w}&(6.2\text{w})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\mu_0\rho_m^\text{SI-am}&(6.2\text{am})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\mu_0c\rho_m^\text{SI-c}&(6.2\text{c})\end{cases}">
 
-By applying <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}^\text{N}={\hbar}c\sqrt{{\hbar}c/4\pi}\;\mathbf{B}^\text{G}={\hbar}c^2e/\sqrt{4\pi\alpha}\;\mathbf{B}^\text{SI}"> <sup>[2]</sup> on the above equations, we get: <sup>[3]</sup> 
+By applying <img src="https://latex.codecogs.com/gif.latex?{\hbar}c\sqrt{{\hbar}c/4\pi}\;\mathbf{B}^\text{G}=\mathbf{B}^\text{N}={\hbar}c^2e/\sqrt{4\pi\alpha}\;\mathbf{B}^\text{SI}"> <sup>[2]</sup> on the above equations, we get: <sup>[3]</sup>
 
 ### Notes
 
