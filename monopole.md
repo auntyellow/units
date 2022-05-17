@@ -88,14 +88,16 @@ Coulomb convention:
 
 #### Conversions
 
-The conversions between above 5 units of magnetic charge can be derived by comparing 5 conventions of (6.2):
+The conversions between above 5 units of magnetic charge can be derived by comparing 5 conventions of the first part of (6.10):
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\nabla\cdot\mathbf{B}^\text{G}=4\pi\rho_m^\text{G}&(6.2\text{g})\\[1em]\nabla\cdot\mathbf{B}^\text{N}=\rho_m^\text{N}&(6.2\text{n})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\rho_m^\text{W}&(6.2\text{w})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\mu_0\rho_m^\text{A}&(6.2\text{a})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\mu_0c\rho_m^\text{C}&(6.2\text{c})\end{cases}">
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\mathbf{F}=q_m^\text{G}\mathbf{B}^\text{G}&(6.10\text{g})\\[1em]\mathbf{F}^\text{N}=q_m^\text{N}\mathbf{B}^\text{N}&(6.10\text{n})\\[1em]\mathbf{F}=\dfrac{q_m^\text{W}}{\mu_0}\mathbf{B}^\text{SI}&(6.10\text{w})\\[1em]\mathbf{F}=q_m^\text{A}\mathbf{B}^\text{SI}&(6.10\text{a})\\[1em]\mathbf{F}=cq_m^\text{C}\mathbf{B}^\text{SI}&(6.10\text{c})\end{cases}">
 
-By applying <img src="https://latex.codecogs.com/gif.latex?{\hbar}c\sqrt{{\hbar}c/4\pi}\;\mathbf{B}^\text{G}=\mathbf{B}^\text{N}={\hbar}c^2e/\sqrt{4\pi\alpha}\;\mathbf{B}^\text{SI}"> <sup>[2]</sup> on the above equations, we get: <sup>[3]</sup>
+By applying <img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=\mathbf{F}^\text{N}/{\hbar}c"> and <img src="https://latex.codecogs.com/gif.latex?{\hbar}c\sqrt{{\hbar}c/4\pi}\;\mathbf{B}^\text{G}=\mathbf{B}^\text{N}={\hbar}c^2e/\sqrt{4\pi\alpha}\;\mathbf{B}^\text{SI}"> <sup>[2]</sup> on the above equations, we get: <sup>[3]</sup>
+
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\sqrt{\dfrac{4\pi}{{\hbar}c}}\;q_m^\text{G}=q_m^\text{N}=\dfrac{e}{\sqrt{4\pi\alpha}\hbar}\;q_m^\text{W}&(6.12)\\[1em]\dfrac{e}{\sqrt{4\pi\alpha}}\;q_m^\text{N}=\dfrac{1}c\;q_m^\text{A}=q_m^\text{C}&(6.13)\end{cases}">
 
 ### Notes
 
 1. Here we also use the special relativity relation <img src="https://latex.codecogs.com/gif.latex?\alpha_L^2\mu_0{\varepsilon_0}c^2=1">.
 2. [Here](b-field.md) is the explanation.
-3. [Here](uncertainties/monopole.py) is the calculation.
+3. [Here](uncertainties/b-field.py) is the calculation.

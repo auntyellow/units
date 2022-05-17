@@ -1,5 +1,7 @@
 ## Magnetic B Field in SI, Gaussian and Natural Units
 
+In this page, constants <img src="https://latex.codecogs.com/gif.latex?\hbar">, *c* and *e* are in SI units and they all have exact values; the dimensionless constant *α* has a relative uncertainty of 0.15 ppb in CODATA-2018.
+
 ### Mechanics
 
 In natural units:
