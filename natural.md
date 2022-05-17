@@ -1,4 +1,4 @@
-## 5. Natural Units
+## 4. Natural Units
 
 [Natural Units](https://en.wikipedia.org/wiki/Natural_units#Natural_units_(particle_and_atomic_physics)) are widely used in quantum field theory. In this unit system, speed of light in vacuum *c*, reduced Planck constant <img src="https://latex.codecogs.com/gif.latex?\hbar"> and vacuum electric permittivity *ε*<sub>0</sub> are defined as 1, and **energy** (usually in eV) is the only base quantity.
 
@@ -39,8 +39,9 @@ Some conversions of electromagnetic units are: <sup>[1]</sup>
 
 - charge: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=e/\sqrt{4\pi\alpha}=5.2908176899(4){\times}10^{-19}\;\text{C}">
 - electric field: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^2\overset{\frown}=1.53462096348(12){\times}10^{6}\;\text{V/m}"> (<img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q\mathbf{E}">)
-- magnetic B field: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^2\overset{\frown}=5.1189445315(4){\times}10^{-3}\;\text{T}"> (<img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q\mathbf{v}\times\mathbf{B}">)
+- magnetic B field: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^2\overset{\frown}=5.1189445315(4){\times}10^{-3}\;\text{T}"> (<img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q\mathbf{v}\times\mathbf{B}">) <sup>[2]</sup>
 
-### Note
+### Notes
 
 1. [Here](uncertainties/natural.py) are the calculations.
+2. [Here](b-field.md) is another explanation.

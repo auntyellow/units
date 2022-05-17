@@ -14,7 +14,7 @@ The permittivity in vacuum is denoted as *ε*<sub>0</sub>. Therefore, the permit
 
 where *ε*<sub>r</sub> is the relative permittivity (≥ 1) and *χ*<sub>e</sub> is the electric susceptibility (≥ 0).
 
-Let's introduce another constant *λ* in Coulomb's law and Gauss's law:
+Let's introduce a coefficient *λ* in Coulomb's law and Gauss's law:
 
 <img src="https://latex.codecogs.com/gif.latex?F=\frac{{\lambda}q_1q_2}{4\pi\varepsilon_0r^2}">
 
@@ -60,7 +60,7 @@ In linear, homogeneous, isotropic dielectric with instantaneous response to chan
 
 ### Magnetic B, M and H Fields
 
-Let's introduce two constants *µ*<sub>0</sub> and *α*<sub>L</sub> in Ampère's force law:
+Let's introduce a constant *µ*<sub>0</sub> and a coefficient *α*<sub>L</sub> in Ampère's force law:
 
 <img src="https://latex.codecogs.com/gif.latex?F=\frac{\lambda\alpha_L^2\mu_0I_1I_2l}{2{\pi}r}">
 
@@ -121,7 +121,7 @@ where *µ* is the (absolute) permeability, *µ*<sub>r</sub> is the relative perm
 
 ### Summary
 
-We introduced constants *λ* and *α*<sub>L</sub> in different unit systems.
+We introduced coefficients *λ* and *α*<sub>L</sub> in different unit systems.
 
 *λ* depends on whether the unit system is rationalized or non-rationalized:
 
@@ -153,13 +153,13 @@ The differences between ESU and EMU are *ε*<sub>0</sub> and *µ*<sub>0</sub>:
 |Heaviside-Lorentz|1                |1                |1   |*c*            |1/4*π*           |1/4*π*c<sup>2</sup>|
 |Natural          |1                |1                |1   |*c* = 1        |1/4*π*           |1/4*π*             |
 
-Here *k*<sub>C</sub> is the coefficient in Coulomb's law: <sup>[7]</sup>
+Here *k*<sub>C</sub> is the constant in Coulomb's law: <sup>[7]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?k_C=\frac{\lambda}{4\pi\varepsilon_0}">
 
 <img src="https://latex.codecogs.com/gif.latex?F=\frac{k_Cq_1q_2}{r^2}">
 
-and *k*<sub>A</sub> is the coefficient in Ampère's force law and Biot-Savart law: <sup>[8]</sup>
+and *k*<sub>A</sub> is the constant in Ampère's force law and Biot-Savart law: <sup>[8]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?k_A=\frac{k_C}{c^2}=\frac{\lambda\alpha_L^2\mu_0}{4\pi}">
 

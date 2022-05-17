@@ -10,7 +10,7 @@ The Maxwell's equations and Lorentz force with magnetic monopoles can be derived
 
 Note that the coefficient *α*<sub>L</sub>*c* makes **B** the same dimension as **E**.
 
-Now let's introduce a new constant *α*<sub>M</sub> into Gauss's law for magnetism:
+Now let's introduce a new coefficient *α*<sub>M</sub> into Gauss's law for magnetism:
 
 <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{B}=\lambda\alpha_M\rho_m\quad(6.2)">
 
@@ -80,7 +80,7 @@ Weber convention:
 
 Ampere-metre convention:
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\nabla\cdot\mathbf{E}=\dfrac{\rho_e}{\varepsilon_0}&(6.3\text{am})\\[1em]\nabla\cdot\mathbf{B}=\mu_0\rho_m&(6.2\text{am})\\[1em]\nabla\times\mathbf{E}=-\mu_0\mathbf{J_m}-\dfrac{\partial\mathbf{B}}{\partial{t}}&(6.7\text{am})\\[1em]\nabla\times\mathbf{B}=\mu_0\mathbf{J_e}+\mu_0\varepsilon_0\dfrac{\partial\mathbf{E}}{\partial{t}}&(6.6\text{am})\\[1em]\mathbf{F}=q_e\left(\mathbf{E}+\mathbf{v}\times\mathbf{B}\right)+q_m\left(\mathbf{B}-\dfrac{1}{c^2}\mathbf{v}\times\mathbf{E}\right)&(6.11\text{am})\end{cases}">
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\nabla\cdot\mathbf{E}=\dfrac{\rho_e}{\varepsilon_0}&(6.3\text{a})\\[1em]\nabla\cdot\mathbf{B}=\mu_0\rho_m&(6.2\text{a})\\[1em]\nabla\times\mathbf{E}=-\mu_0\mathbf{J_m}-\dfrac{\partial\mathbf{B}}{\partial{t}}&(6.7\text{a})\\[1em]\nabla\times\mathbf{B}=\mu_0\mathbf{J_e}+\mu_0\varepsilon_0\dfrac{\partial\mathbf{E}}{\partial{t}}&(6.6\text{a})\\[1em]\mathbf{F}=q_e\left(\mathbf{E}+\mathbf{v}\times\mathbf{B}\right)+q_m\left(\mathbf{B}-\dfrac{1}{c^2}\mathbf{v}\times\mathbf{E}\right)&(6.11\text{a})\end{cases}">
 
 Coulomb convention:
 
@@ -90,7 +90,7 @@ Coulomb convention:
 
 The conversions between above 5 units of magnetic charge can be derived by comparing 5 conventions of (6.2):
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\nabla\cdot\mathbf{B}^\text{G}=4\pi\rho_m^\text{G}&(6.2\text{g})\\[1em]\nabla\cdot\mathbf{B}^\text{N}=\rho_m^\text{N}&(6.2\text{n})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\rho_m^\text{SI-w}&(6.2\text{w})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\mu_0\rho_m^\text{SI-am}&(6.2\text{am})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\mu_0c\rho_m^\text{SI-c}&(6.2\text{c})\end{cases}">
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}\nabla\cdot\mathbf{B}^\text{G}=4\pi\rho_m^\text{G}&(6.2\text{g})\\[1em]\nabla\cdot\mathbf{B}^\text{N}=\rho_m^\text{N}&(6.2\text{n})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\rho_m^\text{W}&(6.2\text{w})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\mu_0\rho_m^\text{A}&(6.2\text{a})\\[1em]\nabla\cdot\mathbf{B}^\text{SI}=\mu_0c\rho_m^\text{C}&(6.2\text{c})\end{cases}">
 
 By applying <img src="https://latex.codecogs.com/gif.latex?{\hbar}c\sqrt{{\hbar}c/4\pi}\;\mathbf{B}^\text{G}=\mathbf{B}^\text{N}={\hbar}c^2e/\sqrt{4\pi\alpha}\;\mathbf{B}^\text{SI}"> <sup>[2]</sup> on the above equations, we get: <sup>[3]</sup>
 

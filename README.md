@@ -18,9 +18,9 @@ Because of [2019 redefinition of the SI base](https://en.wikipedia.org/wiki/2019
 - [x] 1. [Methodology](methodology.md) of Unit Conversion
 - [x] 2. [CGS Units](cgs.md): ESU, EMU and Gaussian
 - [x] 3. [Polarization and Magnetization](polarization.md)
-- [x] 4. [System-Independent Electromagnetic Equations](independent.md)
-- [ ] 5. [Magnetic Monopole](monopole.md)
-- [x] 6. [Natural Units](natural.md)
+- [x] 4. [Natural Units](natural.md)
+- [x] 5. [System-Independent Electromagnetic Equations](independent.md)
+- [ ] 6. [Magnetic Monopole](monopole.md)
 - [x] 7. [Atomic Units](atomic.md), Uncertainties and Correlation Coefficients
 
 Appendix
