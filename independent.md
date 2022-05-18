@@ -134,7 +134,7 @@ The differences between ESU and EMU are *ε*<sub>0</sub> and *µ*<sub>0</sub>:
 
 |System           |*ε*<sub>0</sub>  |*µ*<sub>0</sub>  |*λ* |*α*<sub>L</sub>|*k*<sub>C</sub>  |*k*<sub>A</sub>    |
 |:----------------|:----------------|:----------------|:---|:--------------|:----------------|:------------------|
-|SI               |8.8541878128(13)×10<sup>-12</sup> F/m <sup>[4]</sup>|1.25663706212(19)×10<sup>-6</sup> N/A<sup>2</sup> <sup>[4]</sup>|1|1/4*πε*<sub>0</sub>|*µ*<sub>0</sub>/4*π*|
+|SI               |8.8541878128(13)×10<sup>-12</sup> F/m <sup>[4]</sup>|1.25663706212(19)×10<sup>-6</sup> N/A<sup>2</sup> <sup>[4]</sup>|1|1|1/4*πε*<sub>0</sub>|*µ*<sub>0</sub>/4*π*|
 |ESU              |1                |1/*c*<sup>2</sup>|4*π*|1              |1                |1/c<sup>2</sup>    |
 |EMU              |1/*c*<sup>2</sup>|1                |4*π*|1              |1/*c*<sup>2</sup>|1                  |
 |Gaussian         |1                |1                |4*π*|*c*            |1                |1/*c*<sup>2</sup>  |
