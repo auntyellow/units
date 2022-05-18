@@ -96,8 +96,17 @@ By applying <img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=\mathbf{F}
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}\sqrt{\dfrac{4\pi}{{\hbar}c}}\;q_m^\text{G}=q_m^\text{N}=\dfrac{e}{\sqrt{4\pi\alpha}\hbar}\;q_m^\text{W}&(6.12)\\[1em]\dfrac{e}{\sqrt{4\pi\alpha}}\;q_m^\text{N}=\dfrac{1}c\;q_m^\text{A}=q_m^\text{C}&(6.13)\end{cases}">
 
+Note that *α* has the relative uncertainty of 0.15 ppb, so the uncertainties of the above conversions follow this diagram:
+
+<img src="diagrams/magnetic-charge.png">
+
+Finally, we get the unit conversions: <sup>[4]</sup>
+
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}&(6.14)\\[1em]1\;\text{C}\overset{\frown}=2.99792458{\times}10^8\;\text{A\;m}\overset{\frown}=1.89006701537{\times}10^{18}\;\text{n.u.}&(6.15)\end{cases}">
+
 ### Notes
 
 1. Here we also use the special relativity relation <img src="https://latex.codecogs.com/gif.latex?\alpha_L^2\mu_0{\varepsilon_0}c^2=1">.
 2. [Here](b-field.md) is the explanation.
-3. [Here](uncertainties/b-field.py) is the calculation.
+3. [Here](relations/b-field.py) is the calculation.
+4. [Here](uncertainties/magnetic-charge.py) is the calculation.

@@ -1,6 +1,6 @@
 ## Magnetic B Field in SI, Gaussian and Natural Units
 
-In this page, constants <img src="https://latex.codecogs.com/gif.latex?\hbar">, *c* and *e* are in SI units and they all have exact values; the dimensionless constant *α* has a relative uncertainty of 0.15 ppb in CODATA-2018.
+In this page, constants <img src="https://latex.codecogs.com/gif.latex?\hbar">, *c* and *e* are in SI units and they all have exact values; the dimensionless constant *α* has the relative uncertainty of 0.15 ppb according to CODATA-2018.
 
 ### Mechanics
 
@@ -36,5 +36,5 @@ Apply (2), (3) and (7) on (8), (9) and (10): <sup>[1]</sup>
 
 ### Notes
 
-1. [Here](uncertainties/b-field.py) are the calculations.
+1. [Here](relations/b-field.py) are the calculations.
 2. <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=e^2/4\pi{\hbar}c\alpha">

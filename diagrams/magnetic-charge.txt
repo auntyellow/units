@@ -1,0 +1,9 @@
+rectangle weber
+rectangle n.u.
+rectangle "ampere-metre" as am
+rectangle statC
+rectangle coulomb
+weber -right- n.u. : 0.075 ppb
+n.u. -right- am : 0.075 ppb
+n.u. -down- statC : exact
+am -down- coulomb : exact
