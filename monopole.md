@@ -102,7 +102,7 @@ Note that *α* has the relative uncertainty of 0.15 ppb, so the uncertainties of
 
 Finally, we get the unit conversions: <sup>[4]</sup>
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{cases}&(6.14)\\[1em]1\;\text{C}\overset{\frown}=2.99792458{\times}10^8\;\text{A\;m}\overset{\frown}=1.89006701537{\times}10^{18}\;\text{n.u.}&(6.15)\end{cases}">
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}1\;\text{n.u.}\overset{\frown}=1.586147240...{\times}10^{-9}\;\text{statC}\overset{\frown}=1.99321140787(15){\times}10^{-16}\;\text{Wb}&(6.14)\\[1em]1\;\text{C}\overset{\frown}=2.99792458{\times}10^8\;\text{A\;m}\overset{\frown}=1.89006701537(14){\times}10^{18}\;\text{n.u.}&(6.15)\end{cases}">
 
 ### Notes
 
