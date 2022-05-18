@@ -11,9 +11,8 @@ Let's introduce a constant *ε*<sub>0</sub> and a coefficient *λ* in Coulomb's 
 which hold in all unit systems, then we have different *ε*<sub>0</sub> for different unit systems:
 
 - SI units: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=8.8541878128(13){\times}10^{-12}\text{F/m}">
-- ESU, Gaussian and Heaviside-Lorentz units: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1">
+- ESU, Gaussian, Heaviside-Lorentz and natural units: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1">
 - EMU: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1/c^2">
-- natural units: <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1/c^2=1">
 
 and different *λ*:
 
@@ -58,8 +57,7 @@ which holds in all unit systems, then we have different *µ*<sub>0</sub>:
 
 - SI units: <img src="https://latex.codecogs.com/gif.latex?\mu_0=1.25663706212(19){\times}10^{-6}\;\text{N/A}^2{\approx}4\pi{\times}10^{-7}\;\text{N/A}^2">
 - ESU: <img src="https://latex.codecogs.com/gif.latex?\mu_0=1/c^2">
-- EMU, Gaussian and Heaviside-Lorentz units: <img src="https://latex.codecogs.com/gif.latex?\mu_0=1">
-- natural units: <img src="https://latex.codecogs.com/gif.latex?\mu_0=1/c^2=1">
+- EMU, Gaussian, Heaviside-Lorentz and natural units: <img src="https://latex.codecogs.com/gif.latex?\mu_0=1">
 
 and different *α*<sub>L</sub>:
 
