@@ -68,7 +68,7 @@ In natural units:
 
 #### SI Units
 
-In SI units, there are some options for *α*<sub>M</sub>:
+In SI units, there are some conventions for *α*<sub>M</sub>:
 
 - *α*<sub>M</sub> = 1 makes Gauss's law for magnetism and Maxwell-Faraday equation simple, where the unit of the magnetic charge is **weber**;
 - *α*<sub>M</sub> = *µ*<sub>0</sub> makes Lorentz force simple, where the unit of magnetic charge is **ampere-metre**;
@@ -88,7 +88,7 @@ Coulomb convention:
 
 #### Conversions
 
-The conversions between above 5 units of magnetic charge can be derived by comparing 5 conventions of the first part of (6.10):
+The conversions between above 5 units of magnetic charge can be derived by comparing 5 unit systems or conventions of the **B** terms in (6.10):
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}\mathbf{F}=q_m^\text{G}\mathbf{B}^\text{G}&(6.10\text{g})\\[1em]\mathbf{F}^\text{N}=q_m^\text{N}\mathbf{B}^\text{N}&(6.10\text{n})\\[1em]\mathbf{F}=\dfrac{q_m^\text{W}}{\mu_0}\mathbf{B}^\text{SI}&(6.10\text{w})\\[1em]\mathbf{F}=q_m^\text{A}\mathbf{B}^\text{SI}&(6.10\text{a})\\[1em]\mathbf{F}=cq_m^\text{C}\mathbf{B}^\text{SI}&(6.10\text{c})\end{cases}">
 
@@ -102,11 +102,29 @@ Note that *α* has the relative uncertainty of 0.15 ppb, so the uncertainties of
 
 Finally, we get the unit conversions: <sup>[4]</sup>
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{cases}1\;\text{n.u.}\overset{\frown}=1.586147240...{\times}10^{-9}\;\text{statC}\overset{\frown}=1.99321140787(15){\times}10^{-16}\;\text{Wb}&(6.14)\\[1em]1\;\text{C}\overset{\frown}=2.99792458{\times}10^8\;\text{A\;m}\overset{\frown}=1.89006701537(14){\times}10^{18}\;\text{n.u.}&(6.15)\end{cases}">
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}1\;\text{n.u.}\overset{\frown}=1.586147240...{\times}10^{-9}\;\text{statC}\overset{\frown}=1.99321140787(15){\times}10^{-16}\;\text{Wb}&(6.12')\\[1em]1\;\text{C}\overset{\frown}=2.99792458{\times}10^8\;\text{A\;m}\overset{\frown}=1.89006701537(14){\times}10^{18}\;\text{n.u.}&(6.13')\end{cases}">
+
+### Elementary Magnetic Charge
+
+The [Dirac's Quantization](https://en.wikipedia.org/wiki/Magnetic_monopole#Dirac's_quantization) condition can be expressed as:
+
+<img src="https://latex.codecogs.com/gif.latex?\lambda\alpha_M\alpha_Lq_eq_m=nh">
+
+Then the elementary magnetic charge *g* can be expressed as:
+
+<img src="https://latex.codecogs.com/gif.latex?g=\frac{nh}{\lambda\alpha_M\alpha_Le}\quad(6.14)">
+
+In different unit systems or conventions: <sup>[4]</sup>
+
+<img src="https://latex.codecogs.com/gif.latex?\begin{cases}g^\text{G}=\dfrac{nhc}{4{\pi}e^\text{G}}=n\;3.29105978385(25){\times}10^{-8}\;\text{statC}&(6.14\text{g})\\[1em]g^\text{N}=\dfrac{2{\pi}n}{e^\text{N}}=n\;20.7487659392(16)\;\text{n.u.}&(6.14\text{n})\\[1em]g^\text{W}=\dfrac{nh}{e^\text{SI}}=n\;4.135667696...{\times}10^{-15}\;\text{Wb}&(6.14\text{w})\\[1em]g^\text{A}=\dfrac{nh}{\mu_0e^\text{SI}}=n\;3.2910597830(5){\times}10^{-9}\;\text{A\;m}&(6.14\text{a})\\[1em]g^\text{C}=\dfrac{nh}{\mu_0ce^\text{SI}}=n\;1.09777937874(16){\times}10^{-17}\;\text{C}&(6.14\text{c})\end{cases}">
+
+In Gaussian (6.14g), natural (6.14n) units and coulomb (6.14c) convention:
+
+<img src="https://latex.codecogs.com/gif.latex?g=\frac{n}{2\alpha}e">
 
 ### Notes
 
 1. Here we also use the special relativity relation <img src="https://latex.codecogs.com/gif.latex?\alpha_L^2\mu_0{\varepsilon_0}c^2=1">.
 2. [Here](b-field.md) is the explanation.
-3. [Here](relations/b-field.py) is the calculation.
-4. [Here](uncertainties/magnetic-charge.py) is the calculation.
+3. [Here](relations/b-field.py) are the calculations.
+4. [Here](uncertainties/magnetic-charge.py) are the calculations.

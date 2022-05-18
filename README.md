@@ -20,7 +20,7 @@ Because of [2019 redefinition of the SI base](https://en.wikipedia.org/wiki/2019
 - [x] 3. [Polarization and Magnetization](polarization.md)
 - [x] 4. [Natural Units](natural.md)
 - [x] 5. [System-Independent Electromagnetic Equations](independent.md)
-- [ ] 6. [Magnetic Monopole](monopole.md)
+- [x] 6. [Magnetic Monopole](monopole.md)
 - [x] 7. [Atomic Units](atomic.md), Uncertainties and Correlation Coefficients
 
 Appendix
