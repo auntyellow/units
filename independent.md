@@ -180,6 +180,7 @@ Additional equations are:
 - magnetic **H** field: <img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\alpha_L^2\mathbf{B}}{\mu_0}-\lambda\mathbf{M}">
 - magnetic permeability: <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\chi_m)\mu_0\mathbf{H}"> (in diamagnets and paramagnets)
 - continuity equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{J}+\frac{\partial\rho}{\partial{t}}=0">
+- Poynting vector: <img src="https://latex.codecogs.com/gif.latex?\mathbf{S}=\frac{\mathbf{E}\times\mathbf{B}}{\lambda\alpha_L\mu_0}">
 - Lorentz force: <img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q(\mathbf{E}+\alpha_L\mathbf{v}\times\mathbf{B})">
 
 ### Notes
