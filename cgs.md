@@ -15,7 +15,7 @@ From [here](methodology.md) we know that <img src="https://latex.codecogs.com/gi
 #### Basic Electric Quantities
 
 - Electric Current *I*: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statA}=1\;\text{statC\;s}\overset{\frown}=3.33564095107(25){\times}10^{-10}\;\text{A}">
-- Electric Potential *φ* or Voltage *V*: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV}=1\;\text{erg/statC}\overset{\frown}=299.792458082(22)\;\text{V}">
+- Electric Potential *ϕ* or Voltage *V*: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV}=1\;\text{erg/statC}\overset{\frown}=299.792458082(22)\;\text{V}">
 - Resistance *R*: <img src="https://latex.codecogs.com/gif.latex?1\;\text{s/cm}=1\;\text{statV/statA}=1\;\text{erg\;s/statC}^2\overset{\frown}=8.9875517923(13){\times}10^{11}\;\Omega">
 - Capacitance *C*: <img src="https://latex.codecogs.com/gif.latex?1\;\text{cm}=1\;\text{statC/statV}=1\;\text{statC}^2/\text{erg}\overset{\frown}=1.11265005545(17){\times}10^{-12}\;\text{F}">
 - Inductance *L*: <img src="https://latex.codecogs.com/gif.latex?1\;\text{s}^2/\text{cm}=1\;\text{statV\;s/statA}=1\;\text{erg\;s}^2/{\text{statC}^2\overset{\frown}=8.9875517923(13){\times}10^{11}\;\text{H}">
@@ -102,11 +102,11 @@ The [Magnetic Vector Potential](https://en.wikipedia.org/wiki/Magnetic_vector_po
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\nabla\times\mathbf{A}">
 
-The unit of magnetic vector potential here is G cm or statV s/cm.
+The unit of magnetic vector potential here is G cm or statV, i.e. the same unit as the electric potential *ϕ*.
 
-From (2.4) we get <img src="https://latex.codecogs.com/gif.latex?1\;\text{G\;cm\;(or\;statV\;s/cm)}\overset{\frown}=1.00000000027(8){\times}10^{-6}\;\text{T\;m\;(or\;V\;s/m)}">.
+From (2.4) we get <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV}\overset{\frown}=1.00000000027(8){\times}10^{-6}\;\text{T\;m\;(or\;V\;s/m)}">.
 
-This conversion can also be derived from the definition along with the electric potential *φ*:
+This conversion can also be derived from the definition along with the electric potential *ϕ*:
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}\mathbf{E}^\text{SI}=-\nabla\phi^\text{SI}-\dfrac{\partial\mathbf{A}^\text{SI}}{\partial{t}}\\[1em]\mathbf{E}^\text{G}=-\nabla\phi^\text{G}-\dfrac{1}c\dfrac{\partial\mathbf{A}^\text{G}}{\partial{t}}\end{cases}">
 
@@ -114,13 +114,13 @@ By dividing them and applying <img src="https://latex.codecogs.com/gif.latex?\sq
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{A}^\text{G}=\sqrt{4\pi\varepsilon_0}\;c\;\mathbf{A}^\text{SI}">
 
-We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV\;s/cm}=\sqrt{4\pi\varepsilon_0}\;c\;x\;\text{V\;s/m}">: <sup>[5]</sup>
+We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV}=\sqrt{4\pi\varepsilon_0}\;c\;x\;\text{V\;s/m}">: <sup>[5]</sup>
 
-<img src="https://latex.codecogs.com/gif.latex?{x=\frac{1\;\text{statV\;s/cm}}{\sqrt{4\pi\varepsilon_0}\;c\;\text{V\;s/m}}=\frac{1\;\text{dyn}^{1/2}\text{s/cm}}{\sqrt{4\pi{\times}8.8541878128(13){\times}10^{-12}\text{C}^2/\text{Nm}^2}\;299792458\;\text{m/s}\;\text{Ns/C}}=\dots=1.00000000027(8){\times}10^{-6}}">
+<img src="https://latex.codecogs.com/gif.latex?{x=\frac{1\;\text{statV}}{\sqrt{4\pi\varepsilon_0}\;c\;\text{V\;s/m}}=\frac{1\;\text{dyn}^{1/2}}{\sqrt{4\pi{\times}8.8541878128(13){\times}10^{-12}\text{C}^2/\text{Nm}^2}\;299792458\;\text{m/s}\;\text{Ns/C}}=\dots=1.00000000027(8){\times}10^{-6}}">
 
 So we have:
 
-<img src="https://latex.codecogs.com/gif.latex?1\;\text{statV\;s/cm}\overset{\frown}=1.00000000027(8){\times}10^{-6}\;\text{V\;s/m}">
+<img src="https://latex.codecogs.com/gif.latex?1\;\text{statV}\overset{\frown}=1.00000000027(8){\times}10^{-6}\;\text{V\;s/m}">
 
 #### Magnetic Flux
 

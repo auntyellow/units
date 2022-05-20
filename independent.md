@@ -180,7 +180,7 @@ Additional equations are:
 - magnetic **H** field: <img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\alpha_L^2\mathbf{B}}{\mu_0}-\lambda\mathbf{M}">
 - magnetic permeability: <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\chi_m)\mu_0\mathbf{H}"> (in diamagnets and paramagnets)
 - continuity equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{J}+\frac{\partial\rho}{\partial{t}}=0">
-- Poynting vector: <img src="https://latex.codecogs.com/gif.latex?\mathbf{S}=\frac{\mathbf{E}\times\mathbf{B}}{\lambda\alpha_L\mu_0}">
+- Poynting vector: <img src="https://latex.codecogs.com/gif.latex?\mathbf{S}=\frac{\mathbf{E}\times\mathbf{B}}{\lambda\alpha_L\mu_0}"> <sup>[7]</sup>
 - Lorentz force: <img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q(\mathbf{E}+\alpha_L\mathbf{v}\times\mathbf{B})">
 
 ### Notes
@@ -191,3 +191,4 @@ Additional equations are:
 4. <img src="https://latex.codecogs.com/gif.latex?\mu_0=2h\alpha/e^2c"> and <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1/\mu_0c^2">, where *e*, *h* and *c* are exact values by SI definition. Before 2019, <img src="https://latex.codecogs.com/gif.latex?\mu_0=4\pi{\times}10^{-7}\;\text{N/A}^2"> exactly.
 5. Coulomb's law is the combination of Gauss's law and Lorentz force.
 6. Ampère's force law is the combination of Biot-Savart law and Lorentz force, and Biot-Savart law is the magnetostatic situation of Ampère-Maxwell equation.
+7. [Here](poynting.md) is the explanation.
