@@ -28,11 +28,11 @@ where *R*<sub>∞</sub> is the [Rydberg constant](https://en.wikipedia.org/wiki/
 
 instead of (7.1).
 
-### Mechanical Units
+### Units in Mechanics
 
-Some conversions of mechanical units are: <sup>[2]</sup>
+Some conversions of units in mechanics are: <sup>[2]</sup>
 
-- angular momentum: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=1.054571817...{\times}10^{-34}\;\text{J\;s}"> (exactly)
+- angular momentum: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=1.054571817...{\times}10^{-34}\;\text{J\;s}"> (exact)
 - mass: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=9.1093837015(27){\times}10^{-31}\;\text{kg}"> (0.30 ppb, refer to (7.2))
 - length: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=5.2917721090(8){\times}10^{-11}\;\text{m}"> (0.15 ppb, refer to (7.3))
 - velocity: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=2.18769126364(33){\times}10^{6}\;\text{m/s}"> (0.15 ppb, <img src="https://latex.codecogs.com/gif.latex?e^2/4\pi\varepsilon_0\hbar=c\alpha">)

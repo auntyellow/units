@@ -2,13 +2,13 @@
 
 [Natural Units](https://en.wikipedia.org/wiki/Natural_units#Natural_units_(particle_and_atomic_physics)) are widely used in quantum field theory. In this unit system, speed of light in vacuum *c*, reduced Planck constant <img src="https://latex.codecogs.com/gif.latex?\hbar"> and vacuum electric permittivity *ε*<sub>0</sub> are defined as 1, and **energy** (usually in eV) is the only base quantity.
 
-Under the [2019 redefinition of the SI base](https://en.wikipedia.org/wiki/2019_redefinition_of_the_SI_base_units):
+Under the [2019 redefinition of the SI base units](https://en.wikipedia.org/wiki/2019_redefinition_of_the_SI_base_units):
 
-<img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}=1.602176634{\times}10^{-19}\;\text{J}"> (exactly)
+<img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}=1.602176634{\times}10^{-19}\;\text{J}"> (exact)
 
-### Mechanical Units
+### Units in Mechanics
 
-Some conversions of mechanical units are: <sup>[1]</sup>
+Some conversions of units in mechanics are: <sup>[1]</sup>
 
 - velocity: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=299792458\;\text{m/s}">
 - angular momentum: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=1.054571817...{\times}10^{-34}\;\text{J\;s}">
@@ -19,7 +19,7 @@ Some conversions of mechanical units are: <sup>[1]</sup>
 - length: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^{-1}\overset{\frown}=1.973269804...{\times}10^{-7}\;\text{m}"> (<img src="https://latex.codecogs.com/gif.latex?l=ct">)
 - force: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^2\overset{\frown}=8.11939974...{\times}10^{-13}\;\text{N}"> (<img src="https://latex.codecogs.com/gif.latex?F=\text{d}p/\text{d}t">)
 
-### Electromagnetic Units
+### Units in Electromagnetism
 
 The electric charge in natural units is a dimensionless quantity, according to Coulomb's law: 
 
@@ -35,7 +35,7 @@ according to the fine-structure constant:
 
 <img src="https://latex.codecogs.com/gif.latex?\alpha=\frac{e^2}{4\pi\varepsilon_0{\hbar}c}">
 
-Some conversions of electromagnetic units are: <sup>[1]</sup>
+Some conversions of units in electromagnetism are: <sup>[1]</sup>
 
 - charge: <img src="https://latex.codecogs.com/gif.latex?1\overset{\frown}=e/\sqrt{4\pi\alpha}=5.2908176899(4){\times}10^{-19}\;\text{C}">
 - electric field: <img src="https://latex.codecogs.com/gif.latex?1\;\text{eV}^2\overset{\frown}=1.53462096348(12){\times}10^{6}\;\text{V/m}"> (<img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q\mathbf{E}">)

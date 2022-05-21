@@ -13,7 +13,7 @@ Another reason is to make equations simpler, for example:
 
 Conversions between different unit systems can be found in many textbooks (e.g. appendix in Jackson 1999). However, I'd like to provide a more straight-forward method to make the process easy to understand.
 
-Because of [2019 redefinition of the SI base](https://en.wikipedia.org/wiki/2019_redefinition_of_the_SI_base_units), the results here are different from other materials: there are uncertainties in most unit conversions between SI and Gaussian.
+Because of [2019 redefinition of the SI base units](https://en.wikipedia.org/wiki/2019_redefinition_of_the_SI_base_units), the results here are different from other materials: there are uncertainties in most unit conversions between SI and Gaussian.
 
 - [x] 1. [Methodology](methodology.md) of Unit Conversion
 - [x] 2. [CGS Units](cgs.md): ESU, EMU and Gaussian

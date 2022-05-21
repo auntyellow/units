@@ -124,7 +124,7 @@ In Gaussian (6.14g), natural (6.14n) units and coulomb (6.14c) convention:
 
 ### Notes
 
-1. Here we also use the special relativity relation <img src="https://latex.codecogs.com/gif.latex?\alpha_L^2\mu_0{\varepsilon_0}c^2=1">.
+1. Here we use the special relativity relation <img src="https://latex.codecogs.com/gif.latex?\alpha_L^2\mu_0{\varepsilon_0}c^2=1"> in addition.
 2. [Here](b-field.md) is the explanation.
 3. [Here](relations/b-field.py) are the calculations.
 4. [Here](uncertainties/magnetic-charge.py) are the calculations.
