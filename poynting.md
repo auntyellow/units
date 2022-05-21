@@ -44,7 +44,7 @@ Let's focus on the time-varying of the energy density:
 
 <img src="https://latex.codecogs.com/gif.latex?\frac{\partial{u}}{\partial{t}}=\frac{\partial}{2\lambda\partial{t}}\left(\varepsilon_0|\mathbf{E}|^2+\frac{1}{\mu_0}|\mathbf{B}|^2\right)=\frac{\varepsilon_0}{\lambda}\mathbf{E}\cdot\frac{\partial\mathbf{E}}{\partial{t}}+\frac{1}{\lambda\mu_0}\mathbf{B}\cdot\frac{\partial\mathbf{B}}{\partial{t}}">
 
-Apply Ampère-Maxwell equation and Maxwell-Faraday: <sup>[5]</sup>
+Apply Ampère-Maxwell equation and Maxwell-Faraday equation: <sup>[5]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?\frac{\partial\mathbf{E}}{\partial{t}}=\frac{1}{\alpha_L\varepsilon_0\mu_0}\nabla\times\mathbf{B}-\frac\lambda{\varepsilon_0}\mathbf{J}">
 
