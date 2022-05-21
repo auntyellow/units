@@ -28,7 +28,7 @@ The [Electric Field](https://en.wikipedia.org/wiki/Electric_field#Electrostatics
 
 So the unit of electric field in ESU is:
 
-<img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}=1\;\text{dyn/statC}=1\;\text{dyn}^{1/2}\text{cm}^{-1}\quad(2.1)">
+<a name="2.1"></a><img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}=1\;\text{dyn/statC}=1\;\text{dyn}^{1/2}\text{cm}^{-1}\quad(2.1)">
 
 ### Electromagnetic Units (EMU)
 
@@ -94,7 +94,7 @@ We can solve *x* in <img src="https://latex.codecogs.com/gif.latex?1\;\text{G}=\
 
 So we have: <sup>[6]</sup>
 
-<img src="https://latex.codecogs.com/gif.latex?1\;\text{G}\overset{\frown}=1.00000000027(8){\times}10^{-4}\;\text{T}\quad(2.4)">
+<a name="2.4"></a><img src="https://latex.codecogs.com/gif.latex?1\;\text{G}\overset{\frown}=1.00000000027(8){\times}10^{-4}\;\text{T}\quad(2.4)">
 
 #### Magnetic Vector Potential
 

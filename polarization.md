@@ -34,7 +34,7 @@ The above equations in Gaussian units are:
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{array}{ll}\mathbf{D}^\text{G}=\mathbf{E}^\text{G}+4\pi\mathbf{P}^\text{G}&(3.2\text{b})\\[1em]\nabla\cdot\mathbf{E}^\text{G}=4\pi\rho^\text{G}&(3.3\text{b})\\[1em]\nabla\cdot\mathbf{D}^\text{G}=4\pi\rho_f^\text{G}&(3.4\text{b})\end{array}">
 
-From (2.1) mentioned [here](cgs.md), (3.1), relation between (3.4a) and (3.4b), and <img src="https://latex.codecogs.com/gif.latex?\rho^\text{SI}=\sqrt{4\pi\varepsilon_0}\rho^\text{G}">, we get that:
+From [(2.1)](cgs.md#2.1), (3.1), relation between (3.4a) and (3.4b), and <img src="https://latex.codecogs.com/gif.latex?\rho^\text{SI}=\sqrt{4\pi\varepsilon_0}\rho^\text{G}">, we get that:
 
 - Electric field **E**: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}\overset{\frown}=29979.2458082(22)\;\text{V/m}">
 - Electric polarization **P**: <img src="https://latex.codecogs.com/gif.latex?1\;\text{statV/cm}=1\;\text{statC/cm}^2\overset{\frown}=3.33564095107(25){\times}10^{-6}\;\text{C/m}^2">
@@ -77,7 +77,7 @@ The above equations in Gaussian units are:
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{array}{ll}\mathbf{J_m}^\text{G}=c\nabla\times\mathbf{M^\text{G}}&(3.5\text{b})\\[1em]\mathbf{B}^\text{G}=\mathbf{H}^\text{G}+4\pi\mathbf{M}^\text{G}&(3.6\text{b})\\[1em]\nabla\times\mathbf{B}^\text{G}=\dfrac{4\pi}c\mathbf{J}^\text{G}+\dfrac{1}c\dfrac{\partial\mathbf{E}^\text{G}}{\partial{t}}&(3.7\text{b})\\[1em]\nabla\times\mathbf{H}^\text{G}=\dfrac{4\pi}c\mathbf{J_f}^\text{G}+\dfrac{1}c\dfrac{\partial\mathbf{D}^\text{G}}{\partial{t}}&(3.8\text{b})\end{array}">
 
-From (2.4) mentioned [here](cgs.md), relation between (3.5a) and (3.5b), relation between (3.8a) and (3.8b), and <img src="https://latex.codecogs.com/gif.latex?\mathbf{J}^\text{SI}=\sqrt{4\pi\varepsilon_0}\mathbf{J}^\text{G}">, we get that: 
+From [(2.4)](cgs.md#2.4), relation between (3.5a) and (3.5b), relation between (3.8a) and (3.8b), and <img src="https://latex.codecogs.com/gif.latex?\mathbf{J}^\text{SI}=\sqrt{4\pi\varepsilon_0}\mathbf{J}^\text{G}">, we get that: 
 
 - Magnetic **B** field: <img src="https://latex.codecogs.com/gif.latex?1\;\text{G}\overset{\frown}=1.00000000027(8){\times}10^{-4}\;\text{T}">
 - Magnetization **M**: <img src="https://latex.codecogs.com/gif.latex?1\;\text{erg/G\;cm}^3=1\;\text{statC/cm}^2\overset{\frown}=999.99999973(7)\;\text{A/m}"> <sup>[6]</sup>

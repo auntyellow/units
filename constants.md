@@ -39,7 +39,7 @@
 6. <img src="https://latex.codecogs.com/gif.latex?Z_0^\text{G}=4\pi/c">
 7. <img src="https://latex.codecogs.com/gif.latex?K_J=2e/h">
 8. <img src="https://latex.codecogs.com/gif.latex?R_K=h/e^2">
-9. <img src="https://latex.codecogs.com/gif.latex?m_e=2hR_\infty/c\alpha^2">, or (7.2) mentioned [here](atomic.md)
+9. <img src="https://latex.codecogs.com/gif.latex?m_e=2hR_\infty/c\alpha^2">, or [(7.2)](atomic.md#7.2)
 10. <img src="https://latex.codecogs.com/gif.latex?\mu_B=e\hbar/2m_e">
 11. <img src="https://latex.codecogs.com/gif.latex?m_u=m(^{12}\text{C})/12">
 12. <img src="https://latex.codecogs.com/gif.latex?F=N_Ae">

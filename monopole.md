@@ -1,6 +1,6 @@
 ## 6. Magnetic Monopole
 
-In this page, we use the system-independent electromagnetic equations mentioned [here](independent.md); electric charge, charge density and current density are denoted as *q*<sub>e</sub>, *ρ*<sub>e</sub> and **J**<sub>e</sub>; magnetic charge, charge density and current density are denoted as *q*<sub>m</sub>, *ρ*<sub>m</sub> and **J**<sub>m</sub>.
+In this page, we use the [System-Independent Electromagnetic Equations](independent.md); electric charge, charge density and current density are denoted as *q*<sub>e</sub>, *ρ*<sub>e</sub> and **J**<sub>e</sub>; magnetic charge, charge density and current density are denoted as *q*<sub>m</sub>, *ρ*<sub>m</sub> and **J**<sub>m</sub>.
 
 ### Duality transformation
 

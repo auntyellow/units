@@ -6,7 +6,7 @@ Let's introduce a constant *ε*<sub>0</sub> and a coefficient *λ* in Coulomb's 
 
 <img src="https://latex.codecogs.com/gif.latex?F=\frac{{\lambda}q_1q_2}{4\pi\varepsilon_0r^2}">
 
-<img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{E}=\frac{\lambda\rho}{\varepsilon_0}\quad(5.1)">
+<a name="5.1"></a><img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{E}=\frac{\lambda\rho}{\varepsilon_0}\quad(5.1)">
 
 which hold in all unit systems, then we have different *ε*<sub>0</sub> for different unit systems:
 
@@ -75,7 +75,7 @@ Note that *α*<sub>L</sub> also exists in Lorentz force, Biot-Savart law, Maxwel
 
 <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{E}=-\alpha_L\frac{\partial\mathbf{B}}{\partial{t}}">
 
-<img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{B}=\alpha_L\mu_0\left(\lambda\mathbf{J}+\varepsilon_0\frac{\partial\mathbf{E}}{\partial{t}}\right)\quad(5.5)">
+<a name="5.5"></a><img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{B}=\alpha_L\mu_0\left(\lambda\mathbf{J}+\varepsilon_0\frac{\partial\mathbf{E}}{\partial{t}}\right)\quad(5.5)">
 
 <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{M}=\alpha_L\mathbf{J_m}\quad(5.6)">
 
