@@ -30,4 +30,4 @@ Appendix
 - [x] [Non-SI Physical Units](non-si.md)
 - [x] [Imperial/US Units](imperial.md)
 - [x] [Magnetic B Field](b-field.md) in SI, Gaussian and Natural Units
-- [ ] [Poynting Vector](poynting.md): System-Independent Form
+- [x] [Poynting Vector](poynting.md): System-Independent Form

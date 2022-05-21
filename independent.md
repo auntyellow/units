@@ -73,11 +73,11 @@ Note that *α*<sub>L</sub> also exists in Lorentz force, Biot-Savart law, Maxwel
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\frac{\lambda\alpha_L\mu_0}{4\pi}\int_C\frac{I\text{d}\boldsymbol\ell\times\mathbf{\hat{r}}}{r^2}">
 
-<img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{E}=-\alpha_L\frac{\partial\mathbf{B}}{\partial{t}}">
+<a name="5.5"></a><img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{E}=-\alpha_L\frac{\partial\mathbf{B}}{\partial{t}}\quad(5.5)">
 
-<a name="5.5"></a><img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{B}=\alpha_L\mu_0\left(\lambda\mathbf{J}+\varepsilon_0\frac{\partial\mathbf{E}}{\partial{t}}\right)\quad(5.5)">
+<a name="5.6"></a><img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{B}=\alpha_L\mu_0\left(\lambda\mathbf{J}+\varepsilon_0\frac{\partial\mathbf{E}}{\partial{t}}\right)\quad(5.6)">
 
-<img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{M}=\alpha_L\mathbf{J_m}\quad(5.6)">
+<img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{M}=\alpha_L\mathbf{J_m}\quad(5.7)">
 
 where the magnetization is defined as: <sup>[1]</sup>
 
@@ -85,19 +85,19 @@ where the magnetization is defined as: <sup>[1]</sup>
 
 and **J**<sub>**m**</sub> is the magnetization current density and the total current density is: <sup>[1]</sup>
 
-<img src="https://latex.codecogs.com/gif.latex?\mathbf{J}=\mathbf{J_f}+\mathbf{J_m}+\mathbf{J_p}\quad(5.7)">
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{J}=\mathbf{J_f}+\mathbf{J_m}+\mathbf{J_p}\quad(5.8)">
 
 and **J**<sub>**p**</sub> is the polarization current density: <sup>[1]</sup>
 
-<img src="https://latex.codecogs.com/gif.latex?\mathbf{J_p}=\frac{\partial\mathbf{P}}{\partial{t}}\quad(5.8)">
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{J_p}=\frac{\partial\mathbf{P}}{\partial{t}}\quad(5.9)">
 
 Let's define the magnetic **H** field as:
 
-<img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\alpha_L^2\mathbf{B}}{\mu_0}-\lambda\mathbf{M}\quad(5.9)">
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\alpha_L^2\mathbf{B}}{\mu_0}-\lambda\mathbf{M}\quad(5.10)">
 
 which also holds in all unit systems.
 
-After applying (5.4), (5.5), (5.6), (5.7) and (5.8) on (5.9), we get the macroscopic form of Ampère-Maxwell equation:
+After applying (5.4), (5.6), (5.7), (5.8) and (5.9) on (5.10), we get the macroscopic form of Ampère-Maxwell equation:
 
 <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{H}=\alpha_L\left(\lambda\mathbf{J_f}+\frac{\partial\mathbf{D}}{\partial{t}}\right)">
 
@@ -180,7 +180,7 @@ Additional equations are:
 - magnetic **H** field: <img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\alpha_L^2\mathbf{B}}{\mu_0}-\lambda\mathbf{M}">
 - magnetic permeability: <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\chi_m)\mu_0\mathbf{H}"> (in diamagnets and paramagnets)
 - continuity equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{J}+\frac{\partial\rho}{\partial{t}}=0">
-- Poynting vector: <img src="https://latex.codecogs.com/gif.latex?\mathbf{S}=\frac{\mathbf{E}\times\mathbf{B}}{\lambda\alpha_L\mu_0}"> <sup>[7]</sup>
+- Poynting vector: <img src="https://latex.codecogs.com/gif.latex?\mathbf{S}=\frac{1}{\lambda\alpha_L\mu_0}\mathbf{E}\times\mathbf{B}"> <sup>[7]</sup>
 - Lorentz force: <img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q(\mathbf{E}+\alpha_L\mathbf{v}\times\mathbf{B})">
 
 ### Notes
