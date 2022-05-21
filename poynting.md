@@ -70,7 +70,7 @@ The momentum density of an electromagnetic field is:
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{g}=\frac{1}{c^2}\mathbf{S}=\frac{\alpha_L\varepsilon_0}\lambda\mathbf{E}\times\mathbf{B}">
 
-In all unit systems, the dimension of **S** is *M**T*<sup>-3</sup> and the dimension of **g** is *M**L*<sup>-2</sup>*T*<sup>-1</sup>. In natural units, the dimension of **S** and **g** is 4 (eV<sup>4</sup>).
+In all unit systems, the dimension of **S** is *M* *T*<sup>-3</sup> and the dimension of **g** is *M* *L*<sup>-2</sup> *T*<sup>-1</sup>. In natural units, the dimension of **S** and **g** is 4 (eV<sup>4</sup>).
 
 ### Notes
 
