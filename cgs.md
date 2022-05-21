@@ -40,7 +40,7 @@ The unit of **current** here is:
 
 <img src="https://latex.codecogs.com/gif.latex?1\;\text{abA}=1\;\text{dyn}^{1/2}">
 
-The conversion between Ampere and abA can be derived like (1.1a') and (1.1b') mentioned [here](methodology.md):
+The conversion between Ampere and abA can be derived like [(1.1a')](methodology.md#1.1') and [(1.1b')](methodology.md#1.1'):
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{cases}F=\dfrac{\mu_0I^\text{SI}_1I^\text{SI}_2l}{2{\pi}r}\\[1em]F=\dfrac{2I^\text{EM}_1I^\text{EM}_2l}r\end{cases}">
 

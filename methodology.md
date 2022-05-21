@@ -16,7 +16,7 @@ The unit of electrical charge here is:
 
 To establish the relation between (1.1a) and (1.1b), we should rewrite them as:
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{cases}F=\dfrac{q^\text{SI}_1q^\text{SI}_2}{4\pi\varepsilon_0r^2}&(1.1\text{a}')\\[1em]F=\dfrac{q^\text{G}_1q^\text{G}_2}{r^2}&(1.1\text{b}')\end{cases}">
+<a name="1.1'"></a><img src="https://latex.codecogs.com/gif.latex?\begin{cases}F=\dfrac{q^\text{SI}_1q^\text{SI}_2}{4\pi\varepsilon_0r^2}&(1.1\text{a}')\\[1em]F=\dfrac{q^\text{G}_1q^\text{G}_2}{r^2}&(1.1\text{b}')\end{cases}">
 
 Let's assume <img src="https://latex.codecogs.com/gif.latex?q^\text{SI}=kq^\text{G}">, which means both <img src="https://latex.codecogs.com/gif.latex?q^\text{SI}_1=kq^\text{G}_1"> and <img src="https://latex.codecogs.com/gif.latex?q^\text{SI}_2=kq^\text{G}_2"> hold in (1.1a') and (1.1b'). By dividing them we get <img src="https://latex.codecogs.com/gif.latex?k=\sqrt{4\pi\varepsilon_0}"> or
 
