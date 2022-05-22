@@ -6,7 +6,7 @@ Electrostatic Units (ESU) come from [Coulomb's Law](https://en.wikipedia.org/wik
 
 <img src="https://latex.codecogs.com/gif.latex?F=\frac{q^\text{ES}_1q^\text{ES}_2}{r^2}">
 
-The unit of **electrical charge** in ESU is:
+The unit of **electric charge** in ESU is:
 
 <img src="https://latex.codecogs.com/gif.latex?1\;\text{statC}=1\;\text{dyn}^{1/2}\text{cm}">
 

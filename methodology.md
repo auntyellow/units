@@ -10,7 +10,7 @@ In electrostatic or Gaussian units, however, it has a simpler form:
 
 <img src="https://latex.codecogs.com/gif.latex?F=\frac{q_1q_2}{r^2}\quad(1.1\text{b})">
 
-The unit of electrical charge here is:
+The unit of electric charge here is:
 
 <img src="https://latex.codecogs.com/gif.latex?1\;\text{statC}=1\;\text{dyn}^{1/2}\text{cm}\quad(1.2)">
 
