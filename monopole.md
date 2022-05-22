@@ -106,7 +106,7 @@ Finally, we get the unit conversions: <sup>[4]</sup>
 
 ### Elementary Magnetic Charge
 
-The [Dirac's Quantization](https://en.wikipedia.org/wiki/Magnetic_monopole#Dirac's_quantization) condition can be expressed as:
+The [Dirac's Quantization](https://en.wikipedia.org/wiki/Magnetic_monopole#Dirac's_quantization) condition can be expressed as: <sup>[5]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?\lambda\alpha_M\alpha_Lq_eq_m=nh">
 
@@ -128,3 +128,4 @@ In Gaussian (6.14g), natural (6.14n) units and coulomb (6.14c) convention:
 2. [Here](b-field.md) is the explanation.
 3. [Here](relations/b-field.py) are the calculations.
 4. [Here](uncertainties/magnetic-charge.py) are the calculations.
+5. [Here](dirac-quant.md) is the explanation.
