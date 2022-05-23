@@ -10,7 +10,7 @@ The momentum density at *P* is:
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{g}=\frac{\alpha_L\varepsilon_0}\lambda\mathbf{E}\times\mathbf{B}=\frac{\lambda\alpha_M\alpha_Lq_eq_md}{16\pi^2}\frac{x\mathbf{\hat{k}}}{\sqrt{(x^2+y^2)(x^2+(y-d)^2)}^3}">
 
-The total angular momentum around axis *y* is:
+The total angular momentum around axis *y* is: <sup>[1]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?{\mathbf{L}={\int}x\mathbf{\hat{i}}\times\mathbf{g}\text{d}V=-2\pi\mathbf{\hat{j}}\int_{-\infty}^{+\infty}\int_0^{+\infty}x^2|\mathbf{g}|\text{d}x\text{d}y=-\mathbf{\hat{j}}\frac{\lambda\alpha_M\alpha_Lq_eq_md}{8\pi}\int_{-\infty}^{+\infty}\int_0^{+\infty}\frac{x^3}{\sqrt{(x^2+y^2)(x^2+(y-d)^2)}^3}\text{d}x\text{d}y=-\mathbf{\hat{j}}\frac{\lambda\alpha_M\alpha_Lq_eq_m}{4\pi}}">
 
@@ -21,3 +21,7 @@ Let's assume the angular momentum meets *n* multiples of <img src="https://latex
 i.e.
 
 <img src="https://latex.codecogs.com/gif.latex?\lambda\alpha_M\alpha_Lq_eq_m=nh">
+
+### Note
+
+1. [Here](int-dirac-quant.md) is the calculation for the integral (2/*d*); [here](relations/dirac-quant.py) is the numeric verification.
