@@ -93,7 +93,7 @@ and **J**<sub>**p**</sub> is the polarization current density: <sup>[1]</sup>
 
 Let's define the magnetic **H** field as:
 
-<img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\alpha_L^2\mathbf{B}}{\mu_0}-\lambda\mathbf{M}\quad(5.10)">
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\mathbf{B}}{\mu_0}-\lambda\mathbf{M}\quad(5.10)">
 
 which also holds in all unit systems.
 
@@ -161,27 +161,82 @@ where *ε*<sub>0</sub>, *µ*<sub>0</sub> and *α*<sub>L</sub> follow the special
 
 The system-independent Maxwell equations are:
 
-- Gauss's law: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{E}=\frac{\lambda\rho}{\varepsilon_0}">
-- macroscopic Gauss's law: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{D}=\lambda\rho_f">
-- Gauss's law for magnetism: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{B}=0">
-- Maxwell-Faraday equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{E}=-\alpha_L\frac{\partial\mathbf{B}}{\partial{t}}">
-- Ampère-Maxwell equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{B}=\alpha_L\mu_0\left(\lambda\mathbf{J}+\varepsilon_0\frac{\partial\mathbf{E}}{\partial{t}}\right)">
-- macroscopic Ampère-Maxwell equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{H}=\alpha_L\left(\lambda\mathbf{J_f}+\frac{\partial\mathbf{D}}{\partial{t}}\right)">
+<table>
+  <tr>
+    <td></td>
+    <td>microscopic</td>
+    <td>macroscopic</td>
+  </tr>
+  <tr>
+    <td>Gauss's law</td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{E}=\frac{\lambda\rho}{\varepsilon_0}"></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{D}=\lambda\rho_f"></td>
+  </tr>
+  <tr>
+    <td>Gauss's law for magnetism</td>
+    <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{B}=0"></td>
+  </tr>
+  <tr>
+    <td> Maxwell-Faraday equation</td>
+    <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{E}=-\alpha_L\frac{\partial\mathbf{B}}{\partial{t}}"></td>
+  </tr>
+  <tr>
+    <td>Ampère-Maxwell equation</td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{B}=\alpha_L\mu_0\left(\lambda\mathbf{J}+\varepsilon_0\frac{\partial\mathbf{E}}{\partial{t}}\right)"></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{H}=\alpha_L\left(\lambda\mathbf{J_f}+\frac{\partial\mathbf{D}}{\partial{t}}\right)"></td>
+  </tr>
+</table>
 
 Additional equations are:
 
-- total charge density: <img src="https://latex.codecogs.com/gif.latex?\rho=\rho_f+\rho_b">
-- electric polarization: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{P}=-\rho_b">
-- electric displacement field: <img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon_0\mathbf{E}+\lambda\mathbf{P}">
-- electric permittivity: <img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon\mathbf{E}=\varepsilon_r\varepsilon_0\mathbf{E}=(1+\chi_e)\varepsilon_0\mathbf{E}">
-- total current density: <img src="https://latex.codecogs.com/gif.latex?\mathbf{J}=\mathbf{J_f}+\mathbf{J_m}+\mathbf{J_p}">
-- magnetization current density: <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{M}=\alpha_L\mathbf{J_m}">
-- polarization current density: <img src="https://latex.codecogs.com/gif.latex?\mathbf{J_p}=\frac{\partial\mathbf{P}}{\partial{t}}">
-- magnetic **H** field: <img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\alpha_L^2\mathbf{B}}{\mu_0}-\lambda\mathbf{M}">
-- magnetic permeability: <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\chi_m)\mu_0\mathbf{H}"> (in diamagnets and paramagnets)
-- continuity equation: <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{J}+\frac{\partial\rho}{\partial{t}}=0">
-- Poynting vector: <img src="https://latex.codecogs.com/gif.latex?\mathbf{S}=\frac{1}{\lambda\alpha_L\mu_0}\mathbf{E}\times\mathbf{B}"> <sup>[7]</sup>
-- Lorentz force: <img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q(\mathbf{E}+\alpha_L\mathbf{v}\times\mathbf{B})">
+<table>
+  <tr>
+    <td></td>
+    <td>charge or electric</td>
+    <td>current or magnetic</td>
+  </tr>
+  <tr>
+    <td>total density</td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\rho=\rho_f+\rho_b"></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{J}=\mathbf{J_f}+\mathbf{J_m}+\mathbf{J_p}"></td>
+  </tr>
+  <tr>
+    <td>polarization and magnetization</td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{P}=\frac{\text{d}\mathbf{p}}{\text{d}V}"></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{M}=\frac{\text{d}\mathbf{m}}{\text{d}V}"></td>
+  </tr>
+  <tr>
+    <td>bound charge and magnetization current</td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{P}=-\rho_b"></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{M}=\alpha_L\mathbf{J_m}"></td>
+  </tr>
+  <tr>
+    <td>displacement field and <b>H</b> field</td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon_0\mathbf{E}+\lambda\mathbf{P}"></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\mathbf{B}}{\mu_0}-\lambda\mathbf{M}"></td>
+  </tr>
+  <tr>
+    <td>permittivity <sup>[2]</sup> and permeability <sup>[3]</sup></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon\mathbf{E}=\varepsilon_r\varepsilon_0\mathbf{E}=(1+\chi_e)\varepsilon_0\mathbf{E}"></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\chi_m)\mu_0\mathbf{H}"></td>
+  </tr>
+  <tr>
+    <td>polarization current density</td>
+    <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial\mathbf{P}}{\partial{t}}=\mathbf{J_p}"></td>
+  </tr>
+  <tr>
+    <td>continuity equation</td>
+    <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial\rho}{\partial{t}}+\nabla\cdot\mathbf{J}=0"></td>
+  </tr>
+  <tr>
+    <td>Poynting vector <sup>[7]</sup></td>
+    <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\mathbf{S}=\frac{1}{\lambda\alpha_L\mu_0}\mathbf{E}\times\mathbf{B}"></td>
+  </tr>
+  <tr>
+    <td>Lorentz force</td>
+    <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q(\mathbf{E}+\alpha_L\mathbf{v}\times\mathbf{B})"></td>
+  </tr>
+</table>
 
 ### Notes
 
