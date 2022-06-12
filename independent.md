@@ -234,7 +234,7 @@ Additional equations are:
   </tr>
   <tr>
     <td>Lorentz force</td>
-    <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q(\mathbf{E}+\alpha_L\mathbf{v}\times\mathbf{B})"></td>
+    <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\mathbf{F}=q(\mathbf{E}+\alpha_L\mathbf{v}\times\mathbf{B})"> or <img src="https://latex.codecogs.com/gif.latex?\mathbf{f}=\rho\mathbf{E}+\alpha_L\mathbf{J}\times\mathbf{B}"></td>
   </tr>
 </table>
 
