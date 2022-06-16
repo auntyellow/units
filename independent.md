@@ -43,9 +43,13 @@ After applying (5.1), (5.2) and (5.3) on (5.4), we get the macroscopic form of G
 
 In linear, homogeneous, isotropic dielectric with instantaneous response to changes in electric field: <sup>[1,2]</sup>
 
-<img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon\mathbf{E}=\varepsilon_r\varepsilon_0\mathbf{E}=(1+\chi_e)\varepsilon_0\mathbf{E}">
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon\mathbf{E}=\varepsilon_r\varepsilon_0\mathbf{E}=(1+\lambda\chi_e)\varepsilon_0\mathbf{E}">
 
 where *ε* is the absolute permittivity, *ε*<sub>r</sub> is the relative permittivity (≥ 1) and *χ*<sub>e</sub> is the electric susceptibility (≥ 0).
+
+Although *χ*<sub>e</sub> is dimensionless, it does not have the same value in different systems, according to its definition: <sup>[3]</sup>
+
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{P}=\varepsilon_0\chi_e\mathbf{E}">
 
 ### Magnetic B, M and H Fields
 
@@ -101,11 +105,15 @@ After applying (5.4), (5.6), (5.7), (5.8) and (5.9) on (5.10), we get the macros
 
 <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{H}=\alpha_L\left(\lambda\mathbf{J_f}+\frac{\partial\mathbf{D}}{\partial{t}}\right)">
 
-In diamagnets and paramagnets, the relation between **B** and **H** is usually linear: <sup>[1,3]</sup>
+In diamagnets and paramagnets, the relation between **B** and **H** is usually linear: <sup>[1,4]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\chi_m)\mu_0\mathbf{H}">
 
-where *µ* is the absolute permeability, *µ*<sub>r</sub> is the relative permeability and *χ*<sub>e</sub> is the magnetic susceptibility (negative for diamagnets and positive for paramagnets).
+where *µ* is the absolute permeability, *µ*<sub>r</sub> is the relative permeability and *χ*<sub>m</sub> is the magnetic susceptibility (negative for diamagnets and positive for paramagnets).
+
+Although *χ*<sub>m</sub> is dimensionless, it does not have the same value in different systems, according to its definition: <sup>[5]</sup>
+
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{M}=\chi_m\mathbf{H}">
 
 ### Summary
 
@@ -134,20 +142,20 @@ The differences between ESU and EMU are *ε*<sub>0</sub> and *µ*<sub>0</sub>:
 
 |System           |*ε*<sub>0</sub>  |*µ*<sub>0</sub>  |*λ* |*α*<sub>L</sub>|*k*<sub>C</sub>  |*k*<sub>A</sub>    |
 |:----------------|:----------------|:----------------|:---|:--------------|:----------------|:------------------|
-|SI               |8.8541878128(13)×10<sup>-12</sup> F/m <sup>[4]</sup>|1.25663706212(19)×10<sup>-6</sup> N/A<sup>2</sup> <sup>[4]</sup>|1|1|1/4*πε*<sub>0</sub>|*µ*<sub>0</sub>/4*π*|
+|SI               |8.8541878128(13)×10<sup>-12</sup> F/m <sup>[6]</sup>|1.25663706212(19)×10<sup>-6</sup> N/A<sup>2</sup> <sup>[6]</sup>|1|1|1/4*πε*<sub>0</sub>|*µ*<sub>0</sub>/4*π*|
 |ESU              |1                |1/*c*<sup>2</sup>|4*π*|1              |1                |1/c<sup>2</sup>    |
 |EMU              |1/*c*<sup>2</sup>|1                |4*π*|1              |1/*c*<sup>2</sup>|1                  |
 |Gaussian         |1                |1                |4*π*|*c*            |1                |1/*c*<sup>2</sup>  |
 |Heaviside-Lorentz|1                |1                |1   |*c*            |1/4*π*           |1/4*π*c<sup>2</sup>|
 |Natural          |1                |1                |1   |*c* = 1        |1/4*π*           |1/4*π*             |
 
-Here *k*<sub>C</sub> is the constant in Coulomb's law: <sup>[5]</sup>
+Here *k*<sub>C</sub> is the constant in Coulomb's law: <sup>[7]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?k_C=\frac{\lambda}{4\pi\varepsilon_0}">
 
 <img src="https://latex.codecogs.com/gif.latex?F=\frac{k_Cq_1q_2}{r^2}">
 
-and *k*<sub>A</sub> is the constant in Ampère's force law and Biot-Savart law: <sup>[6]</sup>
+and *k*<sub>A</sub> is the constant in Ampère's force law and Biot-Savart law: <sup>[8]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?k_A=\frac{k_C}{c^2}=\frac{\lambda\alpha_L^2\mu_0}{4\pi}">
 
@@ -216,9 +224,14 @@ Additional equations are:
     <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{H}=\frac{\mathbf{B}}{\mu_0}-\lambda\mathbf{M}"></td>
   </tr>
   <tr>
-    <td>permittivity <sup>[2]</sup> and permeability <sup>[3]</sup></td>
-    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon\mathbf{E}=\varepsilon_r\varepsilon_0\mathbf{E}=(1+\chi_e)\varepsilon_0\mathbf{E}"></td>
-    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\chi_m)\mu_0\mathbf{H}"></td>
+    <td>permittivity <sup>[2]</sup> and permeability <sup>[4]</sup></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon\mathbf{E}=\varepsilon_r\varepsilon_0\mathbf{E}=(1+\lambda\chi_e)\varepsilon_0\mathbf{E}"></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\lambda\chi_m)\mu_0\mathbf{H}"></td>
+  </tr>
+  <tr>
+    <td>susceptibility <sup>[2,3,4,5]</sup></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{P}=\varepsilon_0\chi_e\mathbf{E}"></td>
+    <td><img src="https://latex.codecogs.com/gif.latex?\mathbf{M}=\chi_m\mathbf{H}"></td>
   </tr>
   <tr>
     <td>polarization current density</td>
@@ -229,7 +242,7 @@ Additional equations are:
     <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial\rho}{\partial{t}}+\nabla\cdot\mathbf{J}=0"></td>
   </tr>
   <tr>
-    <td>Poynting vector <sup>[7]</sup></td>
+    <td>Poynting vector <sup>[9]</sup></td>
     <td colspan="2"><img src="https://latex.codecogs.com/gif.latex?\mathbf{S}=\frac{1}{\lambda\alpha_L\mu_0}\mathbf{E}\times\mathbf{B}"></td>
   </tr>
   <tr>
@@ -241,9 +254,11 @@ Additional equations are:
 ### Notes
 
 1. These always hold in all unit systems.
-2. In anisotropic dielectric, the permittivity is a second rank tensor.
-3. This does not hold for ferromagnets, ferrimagnets and antiferromagnets.
-4. <img src="https://latex.codecogs.com/gif.latex?\mu_0=2h\alpha/e^2c"> and <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1/\mu_0c^2">, where *e*, *h* and *c* are exact values by SI definition. Before 2019, <img src="https://latex.codecogs.com/gif.latex?\mu_0=4\pi{\times}10^{-7}\;\text{N/A}^2"> exactly.
-5. Coulomb's law is the combination of Gauss's law and Lorentz force.
-6. Ampère's force law is the combination of Biot-Savart law and Lorentz force, and Biot-Savart law is the magnetostatic situation of Ampère-Maxwell equation.
-7. [Here](poynting.md) is the explanation.
+2. In anisotropic dielectric, the permittivity and electric susceptibility are second rank tensors.
+3. Refer to [here](https://en.wikipedia.org/wiki/Electric_susceptibility#Ambiguity_in_the_definition) and [here](http://bohr.physics.berkeley.edu/classes/221/1112/notes/emunits.pdf) (30,31).
+4. In anisotropic materials, the permeability and magnetic susceptibility are second rank tensors. This does not hold for ferromagnets, ferrimagnets and antiferromagnets.
+5. Refer to [here](https://en.wikipedia.org/wiki/Magnetic_susceptibility#In_CGS_units) and [here](http://bohr.physics.berkeley.edu/classes/221/1112/notes/emunits.pdf) (36,37).
+6. <img src="https://latex.codecogs.com/gif.latex?\mu_0=2h\alpha/e^2c"> and <img src="https://latex.codecogs.com/gif.latex?\varepsilon_0=1/\mu_0c^2">, where *e*, *h* and *c* are exact values by SI definition. Before 2019, <img src="https://latex.codecogs.com/gif.latex?\mu_0=4\pi{\times}10^{-7}\;\text{N/A}^2"> exactly.
+7. Coulomb's law is the combination of Gauss's law and Lorentz force.
+8. Ampère's force law is the combination of Biot-Savart law and Lorentz force, and Biot-Savart law is the magnetostatic situation of Ampère-Maxwell equation.
+9. [Here](poynting.md) is the explanation.

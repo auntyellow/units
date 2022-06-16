@@ -29,6 +29,7 @@ Appendix
 - [x] [Energy Conversions](energy.md)
 - [x] [Non-SI Physical Units](non-si.md)
 - [x] [Imperial/US Units](imperial.md)
+- [x] [Chinese Units](chinese.md)
 - [x] [Magnetic B Field](b-field.md) in SI, Gaussian and Natural Units
 - [x] [Poynting Vector](poynting.md): System-Independent Form
 - [x] [Dirac Quantization Condition](dirac-quant.md)
