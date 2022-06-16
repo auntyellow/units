@@ -41,7 +41,7 @@ After applying (5.1), (5.2) and (5.3) on (5.4), we get the macroscopic form of G
 
 <img src="https://latex.codecogs.com/gif.latex?\nabla\cdot\mathbf{D}=\lambda\rho_f">
 
-In linear, homogeneous, isotropic dielectric with instantaneous response to changes in electric field: <sup>[1,2]</sup>
+In linear, homogeneous, isotropic dielectric with instantaneous response to changes in electric field: <sup>[2]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{D}=\varepsilon\mathbf{E}=\varepsilon_r\varepsilon_0\mathbf{E}=(1+\lambda\chi_e)\varepsilon_0\mathbf{E}">
 
@@ -105,7 +105,7 @@ After applying (5.4), (5.6), (5.7), (5.8) and (5.9) on (5.10), we get the macros
 
 <img src="https://latex.codecogs.com/gif.latex?\nabla\times\mathbf{H}=\alpha_L\left(\lambda\mathbf{J_f}+\frac{\partial\mathbf{D}}{\partial{t}}\right)">
 
-In diamagnets and paramagnets, the relation between **B** and **H** is usually linear: <sup>[1,4]</sup>
+In diamagnets and paramagnets, the relation between **B** and **H** is usually linear: <sup>[4]</sup>
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{B}=\mu\mathbf{H}=\mu_r\mu_0\mathbf{H}=(1+\chi_m)\mu_0\mathbf{H}">
 
